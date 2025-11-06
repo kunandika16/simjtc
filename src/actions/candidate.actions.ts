@@ -234,6 +234,60 @@ export async function completeCandidateOnboarding(): Promise<ActionResponse> {
   }
 }
 
+// Get Candidate's Own Applications (for candidate dashboard)
+export async function getCandidateApplications(): Promise<
+  ActionResponse<{ applications: any[] }>
+> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    // Get applications with job and employer data
+    const { data: applications, error } = await supabase
+      .from('applications')
+      .select(`
+        *,
+        jobs!applications_job_id_fkey (
+          id,
+          title,
+          slug,
+          location_city,
+          employment_type,
+          salary_min,
+          salary_max,
+          deadline,
+          status,
+          employers!jobs_employer_id_fkey (
+            company_name,
+            industry
+          )
+        )
+      `)
+      .eq('user_id', user.id)
+      .order('applied_at', { ascending: false })
+
+    if (error) {
+      console.error('Error fetching applications:', error)
+      return { success: false, error: 'Gagal mengambil data aplikasi' }
+    }
+
+    return {
+      success: true,
+      data: { applications: applications || [] },
+    }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
 export async function getCandidateProfile(): Promise<
   ActionResponse<{
     profile: any
