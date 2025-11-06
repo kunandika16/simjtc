@@ -1,4 +1,4 @@
-# Dokumen Konsep Website
+lan# Dokumen Konsep Website
 
 **Dokumen Konsep Website Program Penyaluran & Pelatihan Tenaga Kerja Jawa Barat**
 
@@ -10,23 +10,23 @@ Program ini merupakan inisiatif untuk mendukung peningkatan kualitas dan penyalu
 
 Jawa Barat memiliki potensi sumber daya manusia yang besar, namun masih menghadapi tantangan dalam:
 
-* Distribusi dan penyerapan tenaga kerja.
+- Distribusi dan penyerapan tenaga kerja.
 
-* Akses terhadap pelatihan kerja yang adaptif.
+- Akses terhadap pelatihan kerja yang adaptif.
 
-* Kolaborasi antara BLK, LPK, dan dunia industri.
+- Kolaborasi antara BLK, LPK, dan dunia industri.
 
 Untuk menjawab tantangan tersebut, diperlukan platform digital yang mampu:
 
-* Menyediakan informasi terpusat mengenai program pelatihan dan lowongan kerja.
+- Menyediakan informasi terpusat mengenai program pelatihan dan lowongan kerja.
 
-* Memfasilitasi kemitraan antar lembaga.
+- Memfasilitasi kemitraan antar lembaga.
 
-* Memperkuat sistem monitoring dan pelaporan hasil program.
+- Memperkuat sistem monitoring dan pelaporan hasil program.
 
 3. **Tujuan Pengembangan Website**
 
-Website ini akan menjadi *hub* utama dalam mendukung program peningkatan penyaluran tenaga kerja di Jawa Barat dengan tujuan:
+Website ini akan menjadi _hub_ utama dalam mendukung program peningkatan penyaluran tenaga kerja di Jawa Barat dengan tujuan:
 
 1. Meningkatkan akses masyarakat terhadap informasi lowongan dan pelatihan kerja.
 
@@ -36,7 +36,7 @@ Website ini akan menjadi *hub* utama dalam mendukung program peningkatan penyalu
 
 4. Menyediakan sistem pengelolaan digital bagi admin, lembaga, dan mitra dalam melakukan input, publikasi, serta monitoring kegiatan.
 
-4. **Solusi Digital yang Diajukan**
+5. **Solusi Digital yang Diajukan**
 
 - **Landing Page (Publik) :** Sebagai halaman utama yang berfungsi memperkenalkan program, menampilkan informasi umum, dan menjadi pintu masuk bagi calon peserta, lembaga, serta mitra.
 
@@ -46,11 +46,11 @@ Pada tahap pertama, fokus pengembangan difokuskan pada **Landing Page** sebagai 
 
 5. **Rencana Pengembangan Sistem**
 
-* Menjadi *official site* yang merepresentasikan semangat peningkatan tenaga kerja Jawa Barat.
+- Menjadi _official site_ yang merepresentasikan semangat peningkatan tenaga kerja Jawa Barat.
 
-* Menyajikan informasi dengan desain modern dan profesional.
+- Menyajikan informasi dengan desain modern dan profesional.
 
-* Membangun kepercayaan publik melalui transparansi, cerita sukses, dan kolaborasi nyata.
+- Membangun kepercayaan publik melalui transparansi, cerita sukses, dan kolaborasi nyata.
 
 6. **Konsep Sistem Informasi Pengelolaan Penyaluran Tenaga Kerja**
 
@@ -64,46 +64,46 @@ Tujuannya adalah menciptakan satu pusat data yang terukur dan mudah diakses untu
 1. **Portal Admin**  
     Admin dapat:
 
-   * Mengelola data pelatihan dan lowongan kerja.
+   - Mengelola data pelatihan dan lowongan kerja.
 
-   * Menerbitkan artikel dan berita program.
+   - Menerbitkan artikel dan berita program.
 
-   * Menyetujui pendaftaran lembaga pelatihan.
+   - Menyetujui pendaftaran lembaga pelatihan.
 
-   * Memantau data peserta pelatihan, pendaftar lowongan, dan statistik sistem.
+   - Memantau data peserta pelatihan, pendaftar lowongan, dan statistik sistem.
 
 2. **Portal Lembaga (LPK/BLK)**  
     Lembaga pelatihan dapat:
 
-   * Menginput dan memperbarui informasi program pelatihan mereka.
+   - Menginput dan memperbarui informasi program pelatihan mereka.
 
-   * Melihat pendaftar dan status peserta.
+   - Melihat pendaftar dan status peserta.
 
-   * Mengunggah dokumentasi kegiatan dan sertifikat pelatihan.
+   - Mengunggah dokumentasi kegiatan dan sertifikat pelatihan.
 
 3. **Portal Pengguna (Peserta / Pencari Kerja)**  
     Masyarakat dapat:
 
-   * Melihat dan mendaftar pelatihan yang tersedia.
+   - Melihat dan mendaftar pelatihan yang tersedia.
 
-   * Melihat lowongan kerja (eksternal) yang terverifikasi.
+   - Melihat lowongan kerja (eksternal) yang terverifikasi.
 
-   * Membaca artikel dan berita program.
+   - Membaca artikel dan berita program.
 
-   * Melengkapi profil diri (CV digital sederhana).
+   - Melengkapi profil diri (CV digital sederhana).
 
 ---
 
 ### **Fitur Utama Sistem Informasi**
 
-| Fitur | Deskripsi Singkat |
-| ----- | ----- |
-| Manajemen Pengguna & Role | Terdiri dari tiga peran utama: Admin, Lembaga, dan Peserta. Masing-masing memiliki hak akses dan dashboard berbeda. |
-| Manajemen Pelatihan (Training Management) | BLK/LPK bisa membuat dan mengelola program pelatihan, jadwal, kuota, serta status pendaftaran peserta. |
-| Manajemen Lowongan Kerja | Admin dapat menambahkan dan mengatur daftar lowongan kerja eksternal (link redirect ke sumber asli). |
-| Manajemen Artikel & Berita | Admin dapat menulis, mempublikasi, dan mengarsipkan artikel kegiatan atau pengumuman program. |
-| Sistem Approval | Admin menyetujui lembaga baru atau konten yang diajukan sebelum tampil publik. |
-| Dashboard KPI Dasar | Menampilkan statistik jumlah pelatihan, peserta, lembaga, dan lowongan aktif sebagai indikator capaian program. |
+| Fitur                                     | Deskripsi Singkat                                                                                                   |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Manajemen Pengguna & Role                 | Terdiri dari tiga peran utama: Admin, Lembaga, dan Peserta. Masing-masing memiliki hak akses dan dashboard berbeda. |
+| Manajemen Pelatihan (Training Management) | BLK/LPK bisa membuat dan mengelola program pelatihan, jadwal, kuota, serta status pendaftaran peserta.              |
+| Manajemen Lowongan Kerja                  | Admin dapat menambahkan dan mengatur daftar lowongan kerja eksternal (link redirect ke sumber asli).                |
+| Manajemen Artikel & Berita                | Admin dapat menulis, mempublikasi, dan mengarsipkan artikel kegiatan atau pengumuman program.                       |
+| Sistem Approval                           | Admin menyetujui lembaga baru atau konten yang diajukan sebelum tampil publik.                                      |
+| Dashboard KPI Dasar                       | Menampilkan statistik jumlah pelatihan, peserta, lembaga, dan lowongan aktif sebagai indikator capaian program.     |
 
 ### **Alur Pengguna Secara Umum**
 
@@ -111,17 +111,17 @@ Tujuannya adalah menciptakan satu pusat data yang terukur dan mudah diakses untu
 
 2. Sistem menampilkan pilihan role:
 
-   * *Lulusan / Mahasiswa (Peserta)*
+   - _Lulusan / Mahasiswa (Peserta)_
 
-   * *Lembaga Pelatihan (LPK/BLK)*
+   - _Lembaga Pelatihan (LPK/BLK)_
 
-   * *Perusahaan (Employer – untuk fase berikutnya)*
+   - _Perusahaan (Employer – untuk fase berikutnya)_
 
 3. Setelah registrasi:
 
-   * Peserta diarahkan untuk melengkapi data diri & membuat CV digital.
+   - Peserta diarahkan untuk melengkapi data diri & membuat CV digital.
 
-   * Lembaga diarahkan untuk mengisi profil lembaga dan menunggu verifikasi admin.
+   - Lembaga diarahkan untuk mengisi profil lembaga dan menunggu verifikasi admin.
 
 4. Setelah login, setiap role memiliki dashboard masing-masing sesuai hak akses.
 
@@ -131,37 +131,37 @@ Tujuannya adalah menciptakan satu pusat data yang terukur dan mudah diakses untu
 
 ### 🎯 Nilai Tambah Sistem Informasi
 
-* Semua data pelatihan dan lowongan terkonsolidasi dalam satu platform digital.  
-* Meningkatkan efisiensi administrasi dan kolaborasi antar lembaga.  
-* Transparansi dan akuntabilitas dalam penyaluran tenaga kerja.  
-* Siap dikembangkan lebih lanjut menjadi ekosistem digital ketenagakerjaan berbasis data Jawa Barat.  
-    
+- Semua data pelatihan dan lowongan terkonsolidasi dalam satu platform digital.
+- Meningkatkan efisiensi administrasi dan kolaborasi antar lembaga.
+- Transparansi dan akuntabilitas dalam penyaluran tenaga kerja.
+- Siap dikembangkan lebih lanjut menjadi ekosistem digital ketenagakerjaan berbasis data Jawa Barat.  
+
+
 7. **Gaya Desain & Visual**
 
-* **Warna Utama :** Oranye (\#F47B20), Putih (\#FFFFFF), Hitam (\#1E1E1E).
+- **Warna Utama :** Oranye (\#F47B20), Putih (\#FFFFFF), Hitam (\#1E1E1E).
 
-* **Gaya Visual :** Modern, bersih, profesional, dengan nuansa hangat dan semangat kolaborasi.
+- **Gaya Visual :** Modern, bersih, profesional, dengan nuansa hangat dan semangat kolaborasi.
 
-* **Teta Letak :** Full-width section, rounded corners, icon minimalis, animasi halus saat scroll.
+- **Teta Letak :** Full-width section, rounded corners, icon minimalis, animasi halus saat scroll.
 
-* **Typography :** Sans-serif modern seperti Poppins / Inter / Manrope.
+- **Typography :** Sans-serif modern seperti Poppins / Inter / Manrope.
 
-* **Ilutasi & Photo :** Gambar tenaga kerja muda, pelatihan digital, dan kegiatan BLK. 
+- **Ilutasi & Photo :** Gambar tenaga kerja muda, pelatihan digital, dan kegiatan BLK.
 
 8. **Output & Deliverables**
 
-* Website Landing Page responsif (desktop & mobile).
+- Website Landing Page responsif (desktop & mobile).
 
-* Konten copywriting lengkap dalam bahasa Indonesia.
+- Konten copywriting lengkap dalam bahasa Indonesia.
 
-* Desain visual sesuai identitas program (warna oranye, putih, hitam).
+- Desain visual sesuai identitas program (warna oranye, putih, hitam).
 
-* Akses admin dasar (untuk pengelolaan konten berita, lowongan, dan update program).
+- Akses admin dasar (untuk pengelolaan konten berita, lowongan, dan update program).
 
-* Dokumentasi aset (logo, font, warna, dan komponen UI).
+- Dokumentasi aset (logo, font, warna, dan komponen UI).
 
-* Panduan penggunaan singkat (user guide).
-
+- Panduan penggunaan singkat (user guide).
 
 9. **Penutup**
 
@@ -175,36 +175,36 @@ Website ini diharapkan menjadi simbol nyata dari upaya peningkatan kualitas tena
 
 1. ### **DESAIN & USER EXPERIENCE**
 
-| No | Uraian | Rincian Kegiatan | Estimasi Biaya (Rp) |
-| :---: | ----- | ----- | ----- |
-| 1 | Desain UI/UX Website | Desain halaman landing page utama (desktop & mobile), wireframe, dan layout visual modern sesuai identitas program. | 2.500.000 |
-| 2 | Komponen Visual & Style Guide | Pembuatan icon, banner, warna, dan sistem tipografi agar konsisten di semua halaman. | 1.500.000 |
-| **Subtotal Desain** |  |  | **4.000.000** |
+|         No          | Uraian                        | Rincian Kegiatan                                                                                                    | Estimasi Biaya (Rp) |
+| :-----------------: | ----------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------- |
+|          1          | Desain UI/UX Website          | Desain halaman landing page utama (desktop & mobile), wireframe, dan layout visual modern sesuai identitas program. | 2.500.000           |
+|          2          | Komponen Visual & Style Guide | Pembuatan icon, banner, warna, dan sistem tipografi agar konsisten di semua halaman.                                | 1.500.000           |
+| **Subtotal Desain** |                               |                                                                                                                     | **4.000.000**       |
 
 2. ### **DEVELOPMENT WEBSITE**
 
-| No | Uraian | Rincian Kegiatan | Estimasi Biaya (Rp) |
-| :---: | ----- | ----- | ----- |
-| 1 | Frontend Development | Pembuatan landing page interaktif berbasis **React \+ Vite \+ Tailwind \+ Shadcn UI \+ Framer Motion**. | 4.500.000 |
-| 2 | Backend / CMS Ringan | CRUD konten berita, program pelatihan, dan lowongan kerja via **Supabase / Node.js** | 2.500.000 |
-| 3 | Interaktivitas & Responsivitas | Carousel event, gallery modal, counter animasi, optimasi SEO dan mobile. | 1.000.000 |
-| **Subtotal Development** |  |  | **8.000.000** |
+|            No            | Uraian                         | Rincian Kegiatan                                                                                        | Estimasi Biaya (Rp) |
+| :----------------------: | ------------------------------ | ------------------------------------------------------------------------------------------------------- | ------------------- |
+|            1             | Frontend Development           | Pembuatan landing page interaktif berbasis **React \+ Vite \+ Tailwind \+ Shadcn UI \+ Framer Motion**. | 4.500.000           |
+|            2             | Backend / CMS Ringan           | CRUD konten berita, program pelatihan, dan lowongan kerja via **Supabase / Node.js**                    | 2.500.000           |
+|            3             | Interaktivitas & Responsivitas | Carousel event, gallery modal, counter animasi, optimasi SEO dan mobile.                                | 1.000.000           |
+| **Subtotal Development** |                                |                                                                                                         | **8.000.000**       |
 
 3. ### **INFRASTRUKTUR & DEPLOYMENT**
 
-| No | Uraian | Rincian Kegiatan | Estimasi Biaya (Rp) |
-| :---: | ----- | ----- | ----- |
-| 1 | Domain Resmi (.id / .org, 1 Tahun) | Domain kredibel untuk lembaga/instansi resmi. | 800.000 |
-| 2 | Cloud Hosting & Database Premium (1 Tahun)  | Hosting menggunakan **VPS Premium \+ Supabase** dengan keunggulan: • Auto-scale saat traffic tinggi • CI/CD Deployment otomatis • SSL Enkripsi • Server regional Asia (latency rendah) • Logging, analytics, dan backup rutin • Dapat di-upgrade ke sistem portal tanpa rebuild. | 4.000.000 |
-| 3 | Keamanan & Backup Harian  | Setup firewall, HTTPS enforcement, policy-based access, dan backup otomatis ke storage cloud. | 1.000.000 |
-| **Subtotal Infrastruktur & Development** |  |  | **5.800.000** |
+|                    No                    | Uraian                                     | Rincian Kegiatan                                                                                                                                                                                                                                                                 | Estimasi Biaya (Rp) |
+| :--------------------------------------: | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+|                    1                     | Domain Resmi (.id / .org, 1 Tahun)         | Domain kredibel untuk lembaga/instansi resmi.                                                                                                                                                                                                                                    | 800.000             |
+|                    2                     | Cloud Hosting & Database Premium (1 Tahun) | Hosting menggunakan **VPS Premium \+ Supabase** dengan keunggulan: • Auto-scale saat traffic tinggi • CI/CD Deployment otomatis • SSL Enkripsi • Server regional Asia (latency rendah) • Logging, analytics, dan backup rutin • Dapat di-upgrade ke sistem portal tanpa rebuild. | 4.000.000           |
+|                    3                     | Keamanan & Backup Harian                   | Setup firewall, HTTPS enforcement, policy-based access, dan backup otomatis ke storage cloud.                                                                                                                                                                                    | 1.000.000           |
+| **Subtotal Infrastruktur & Development** |                                            |                                                                                                                                                                                                                                                                                  | **5.800.000**       |
 
 4. ### **MAINTENENCE DAN PEMELIHARAAN SERVER**
 
-| No | Uraian | Rincian Kegiatan | Estimasi Biaya (Rp) |
-| :---: | ----- | ----- | ----- |
-| 1 | Pengujian dan Pemeliharaan | Melakukan pengujian penggunaan selama 1 bulan dan analisa bug/error | 1.000.000 |
-| **Subtotal Maintenence dan Pemeliharaan Server** |  |  | **1.000.000** |
+|                        No                        | Uraian                     | Rincian Kegiatan                                                    | Estimasi Biaya (Rp) |
+| :----------------------------------------------: | -------------------------- | ------------------------------------------------------------------- | ------------------- |
+|                        1                         | Pengujian dan Pemeliharaan | Melakukan pengujian penggunaan selama 1 bulan dan analisa bug/error | 1.000.000           |
+| **Subtotal Maintenence dan Pemeliharaan Server** |                            |                                                                     | **1.000.000**       |
 
 **Catatan Penting:**
 
@@ -212,31 +212,31 @@ Infrastruktur dibuat dengan arsitektur **scalable dan secure**, Dapat menangani 
 
 5. ## **REKAP TOTAL**
 
-| Komponen | Estimasi Biaya (Rp) |
-| ----- | ----- |
-| Design & UI | 4.000.000 |
-| Development Website | 8.000.000 |
-| Infrastruktur & Deployment | 5.800.000 |
-| Maintenence & Pemeliharaan | 1.000.000 |
-| **TOTAL KESELURUHAN** | **18.800.000** |
+| Komponen                   | Estimasi Biaya (Rp) |
+| -------------------------- | ------------------- |
+| Design & UI                | 4.000.000           |
+| Development Website        | 8.000.000           |
+| Infrastruktur & Deployment | 5.800.000           |
+| Maintenence & Pemeliharaan | 1.000.000           |
+| **TOTAL KESELURUHAN**      | **18.800.000**      |
 
 6. ## **Rencana Waktu Pelaksanaan**
 
-| Tahap | Durasi | Output |
-| ----- | ----- | ----- |
-| Desain UI/Ux | 4 Hari | Layout & Style Guide |
-| Development | 30 Hari | Website Fungsional |
-| Testing & Maintenance | 4 Hari | QA & Optimasi |
-| Launching | 2 Hari | Deploy ke Domain Resmi |
-| **TOTAL DURASI** | **±5 minggu efektif** | **Website siap digunakan** |
+| Tahap                 | Durasi                | Output                     |
+| --------------------- | --------------------- | -------------------------- |
+| Desain UI/Ux          | 4 Hari                | Layout & Style Guide       |
+| Development           | 30 Hari               | Website Fungsional         |
+| Testing & Maintenance | 4 Hari                | QA & Optimasi              |
+| Launching             | 2 Hari                | Deploy ke Domain Resmi     |
+| **TOTAL DURASI**      | **±5 minggu efektif** | **Website siap digunakan** |
 
 7. ## **Termin Pembayaran**
 
-| Termin | Persentase | Waktu Pembayaran | Keterangan |
-| ----- | ----- | ----- | ----- |
-| Termin 1 \- DP Awal | 30%  (Rp 5.640.000) | Setelah dokumen RAB disetujui & kontrak kerja ditandatangani | Untuk memulai desain & Setup proyek |
-| Termin 2 \- Pengembangan | 40%  (Rp 7.520.000) | Setelah tahap development website selessai (fitur utama berfungsi) | Meliputi UI/UX, frontend, backend dan infrastruktur |
-| Termin 3 \- Final & Launching  | 30%  (Rp 5.640.000) | Setelah testing, revisi akhir, dan website resmi di-deploy ke domain | Deploy ke Domain Resmi |
+| Termin                        | Persentase         | Waktu Pembayaran                                                     | Keterangan                                          |
+| ----------------------------- | ------------------ | -------------------------------------------------------------------- | --------------------------------------------------- |
+| Termin 1 \- DP Awal           | 30% (Rp 5.640.000) | Setelah dokumen RAB disetujui & kontrak kerja ditandatangani         | Untuk memulai desain & Setup proyek                 |
+| Termin 2 \- Pengembangan      | 40% (Rp 7.520.000) | Setelah tahap development website selessai (fitur utama berfungsi)   | Meliputi UI/UX, frontend, backend dan infrastruktur |
+| Termin 3 \- Final & Launching | 30% (Rp 5.640.000) | Setelah testing, revisi akhir, dan website resmi di-deploy ke domain | Deploy ke Domain Resmi                              |
 
 # Auth
 
@@ -248,55 +248,55 @@ Infrastruktur dibuat dengan arsitektur **scalable dan secure**, Dapat menangani 
 
 2. **Pilih Peran** (wajib):
 
-   * **Lulusan/Mahasiswa** (→ role: `candidate`)
+   - **Lulusan/Mahasiswa** (→ role: `candidate`)
 
-   * **Mitra BLK/LPK** (→ role: `institution`)
+   - **Mitra BLK/LPK** (→ role: `institution`)
 
-   * **Perusahaan/Employer** (→ role: `employer`)
+   - **Perusahaan/Employer** (→ role: `employer`)
 
 3. **Registrasi** (berdasarkan peran):
 
-   * Metode: **Email+Password**, **Google OAuth**, **No. Telp (OTP)**
+   - Metode: **Email+Password**, **Google OAuth**, **No. Telp (OTP)**
 
-   * Simpan `intended_role` dari langkah pilih peran
+   - Simpan `intended_role` dari langkah pilih peran
 
 4. **Onboarding** (halaman pertama setelah signup sukses):
 
-   * **Candidate:** lengkapi profil \+ **Generate CV**
+   - **Candidate:** lengkapi profil \+ **Generate CV**
 
-   * **Institution:** isi **Profil BLK/LPK** (alamat, legalitas, kapasitas, program)
+   - **Institution:** isi **Profil BLK/LPK** (alamat, legalitas, kapasitas, program)
 
-   * **Employer:** isi **Info Perusahaan** (NIB/NPWP opsional, bidang, alamat, PIC)
+   - **Employer:** isi **Info Perusahaan** (NIB/NPWP opsional, bidang, alamat, PIC)
 
 5. **Role Gate**: jika onboarding belum lengkap → tetap diarahkan ke wizard; kalau lengkap → **Dashboard peran** (Candidate/Institution/Employer).
 
-6. **Admin Review (opsional)**: untuk `institution` & `employer`, boleh diberi **status: pending\_approval** sebelum akses penuh.
+6. **Admin Review (opsional)**: untuk `institution` & `employer`, boleh diberi **status: pending_approval** sebelum akses penuh.
 
 ---
 
 # **2\) Struktur Halaman (Next.js App Router)**
 
-* `/join` → pilih peran (Candidate / Institution / Employer)
+- `/join` → pilih peran (Candidate / Institution / Employer)
 
-* `/auth/register?role={candidate|institution|employer}`
+- `/auth/register?role={candidate|institution|employer}`
 
-* `/auth/login`
+- `/auth/login`
 
-* `/auth/forgot-password`
+- `/auth/forgot-password`
 
-* `/onboarding/candidate` → wizard profil \+ generate CV
+- `/onboarding/candidate` → wizard profil \+ generate CV
 
-* `/onboarding/institution` → wizard profil BLK/LPK
+- `/onboarding/institution` → wizard profil BLK/LPK
 
-* `/onboarding/employer` → wizard profil perusahaan
+- `/onboarding/employer` → wizard profil perusahaan
 
-* `/dashboard/candidate`
+- `/dashboard/candidate`
 
-* `/dashboard/institution`
+- `/dashboard/institution`
 
-* `/dashboard/employer`
+- `/dashboard/employer`
 
-* `/pending-approval` (untuk institution/employer jika perlu verifikasi)
+- `/pending-approval` (untuk institution/employer jika perlu verifikasi)
 
 ---
 
@@ -306,49 +306,49 @@ Infrastruktur dibuat dengan arsitektur **scalable dan secure**, Dapat menangani 
 
 **Langkah 1: Data Pribadi**
 
-* Nama lengkap\* (≥3 char)
+- Nama lengkap\* (≥3 char)
 
-* Email\* (readonly jika dari OAuth)
+- Email\* (readonly jika dari OAuth)
 
-* No. telp\* (OTP opsional)
+- No. telp\* (OTP opsional)
 
-* Tgl lahir\* (≥ 15 tahun)
+- Tgl lahir\* (≥ 15 tahun)
 
-* Jenis kelamin (opsional)
+- Jenis kelamin (opsional)
 
-* Alamat (kota/kabupaten, provinsi)\*
+- Alamat (kota/kabupaten, provinsi)\*
 
 **Langkah 2: Pendidikan**
 
-* Jenjang terakhir\* (SMA/SMK/D3/S1/…)
+- Jenjang terakhir\* (SMA/SMK/D3/S1/…)
 
-* Jurusan\*
+- Jurusan\*
 
-* Tahun lulus\*
+- Tahun lulus\*
 
-* IPK (opsional)
+- IPK (opsional)
 
-* **Status**: Lulusan / Mahasiswa Aktif\*
+- **Status**: Lulusan / Mahasiswa Aktif\*
 
 **Langkah 3: Pengalaman & Skill**
 
-* Pengalaman kerja (array: perusahaan, posisi, periode, deskripsi)
+- Pengalaman kerja (array: perusahaan, posisi, periode, deskripsi)
 
-* Skill\* (min 3), level (Beginner/Intermediate/Advanced)
+- Skill\* (min 3), level (Beginner/Intermediate/Advanced)
 
-* Bahasa (EN/JPN) \+ **JLPT level** (opsional)
+- Bahasa (EN/JPN) \+ **JLPT level** (opsional)
 
-* Portofolio/LinkedIn (opsional)
+- Portofolio/LinkedIn (opsional)
 
 **Langkah 4: Dokumen**
 
-* Upload: CV (opsional jika mau **Generate CV**), Ijazah, KTP, Sertifikat
+- Upload: CV (opsional jika mau **Generate CV**), Ijazah, KTP, Sertifikat
 
 **Langkah 5: Generate CV**
 
-* Pilih template (A/B) → preview → **Export PDF** → simpan `cv_url`
+- Pilih template (A/B) → preview → **Export PDF** → simpan `cv_url`
 
-* Checklist selesai → direct ke `/dashboard/candidate`
+- Checklist selesai → direct ke `/dashboard/candidate`
 
 **Validasi utama:** field bertanda \* wajib; minimal 1 dokumen; min 3 skill; sanitasi URL.
 
@@ -358,41 +358,41 @@ Infrastruktur dibuat dengan arsitektur **scalable dan secure**, Dapat menangani 
 
 **Langkah 1: Data Lembaga**
 
-* Nama lembaga\*
+- Nama lembaga\*
 
-* Jenis: **BLK Pemerintah / BLK Pesantren / LPK** \*
+- Jenis: **BLK Pemerintah / BLK Pesantren / LPK** \*
 
-* NIB/izin operasional (opsional, tapi dianjurkan)
+- NIB/izin operasional (opsional, tapi dianjurkan)
 
-* Alamat lengkap\*, kota/kabupaten\*, provinsi\*
+- Alamat lengkap\*, kota/kabupaten\*, provinsi\*
 
-* Koordinat (lat/lng) untuk peta (opsional)
+- Koordinat (lat/lng) untuk peta (opsional)
 
 **Langkah 2: Kontak & PIC**
 
-* Email lembaga\*, telepon kantor\*
+- Email lembaga\*, telepon kantor\*
 
-* Nama PIC\*, jabatan\*, no. telp\*, email\*
+- Nama PIC\*, jabatan\*, no. telp\*, email\*
 
 **Langkah 3: Kapasitas & Fasilitas**
 
-* Kapasitas peserta per bulan/kuartal\*
+- Kapasitas peserta per bulan/kuartal\*
 
-* Fasilitas: ruang kelas, lab, asrama, peralatan (checkbox)
+- Fasilitas: ruang kelas, lab, asrama, peralatan (checkbox)
 
-* Bidang keahlian utama\* (list)
+- Bidang keahlian utama\* (list)
 
 **Langkah 4: Program Utama**
 
-* Daftar program (Bahasa Jepang/Desain/Digital/Manufaktur, dsb)
+- Daftar program (Bahasa Jepang/Desain/Digital/Manufaktur, dsb)
 
-* Skema sertifikasi (BNSP/dll) (opsional)
+- Skema sertifikasi (BNSP/dll) (opsional)
 
 **Langkah 5: Review & Submit**
 
-* Status awal: `pending_approval` (opsi) → Admin verifikasi → `approved`
+- Status awal: `pending_approval` (opsi) → Admin verifikasi → `approved`
 
-* Approved → `/dashboard/institution`
+- Approved → `/dashboard/institution`
 
 ---
 
@@ -400,33 +400,33 @@ Infrastruktur dibuat dengan arsitektur **scalable dan secure**, Dapat menangani 
 
 **Langkah 1: Data Perusahaan**
 
-* Nama perusahaan\*
+- Nama perusahaan\*
 
-* Bidang industri\*
+- Bidang industri\*
 
-* Website/Profil publik (opsional)
+- Website/Profil publik (opsional)
 
-* Alamat kantor\*, kota/kabupaten\*, provinsi\*
+- Alamat kantor\*, kota/kabupaten\*, provinsi\*
 
 **Langkah 2: Legal & Kontak**
 
-* NIB/NPWP (opsional)
+- NIB/NPWP (opsional)
 
-* PIC HR\*: nama\*, email\*, telp\*
+- PIC HR\*: nama\*, email\*, telp\*
 
 **Langkah 3: Preferensi Rekrutmen**
 
-* Lokasi kerja (IDN/JP/Hybrid)
+- Lokasi kerja (IDN/JP/Hybrid)
 
-* Jenis posisi umum (operator, kreatif, IT, dsb)
+- Jenis posisi umum (operator, kreatif, IT, dsb)
 
-* Catatan kebutuhan (opsional)
+- Catatan kebutuhan (opsional)
 
 **Langkah 4: Review & Submit**
 
-* Status awal `pending_approval` (opsi) → Admin verifikasi → `approved`
+- Status awal `pending_approval` (opsi) → Admin verifikasi → `approved`
 
-* Approved → `/dashboard/employer` (bisa **posting loker** bila role diizinkan)
+- Approved → `/dashboard/employer` (bisa **posting loker** bila role diizinkan)
 
 ---
 
@@ -434,71 +434,71 @@ Infrastruktur dibuat dengan arsitektur **scalable dan secure**, Dapat menangani 
 
 ### **4.1 Users & Roles**
 
-* `auth.users` (bawaan Supabase)
+- `auth.users` (bawaan Supabase)
 
-* **`profiles`**
+- **`profiles`**
 
-  * `id` (uuid, pk, \= auth.uid)
+  - `id` (uuid, pk, \= auth.uid)
 
-  * `role` (`candidate` | `institution` | `employer` | `admin`)
+  - `role` (`candidate` | `institution` | `employer` | `admin`)
 
-  * `full_name`, `phone`, `city`, `province`, `avatar_url`
+  - `full_name`, `phone`, `city`, `province`, `avatar_url`
 
-  * `onboarding_completed` (bool)
+  - `onboarding_completed` (bool)
 
-  * `created_at`
+  - `created_at`
 
-* **`user_roles`** (opsional multi-role)
+- **`user_roles`** (opsional multi-role)
 
-  * `user_id`, `role`, `status` (`pending_approval`/`approved`/`rejected`)
+  - `user_id`, `role`, `status` (`pending_approval`/`approved`/`rejected`)
 
 ### **4.2 Candidate**
 
-* **`candidate_profiles`** (1–1)
+- **`candidate_profiles`** (1–1)
 
-  * `user_id` (pk, fk)
+  - `user_id` (pk, fk)
 
-  * `education_level`, `major`, `graduation_year`, `gpa`, `is_student`
+  - `education_level`, `major`, `graduation_year`, `gpa`, `is_student`
 
-  * `skills` (text\[\]), `languages` (jsonb: {code, level}), `jlpt_level`
+  - `skills` (text\[\]), `languages` (jsonb: {code, level}), `jlpt_level`
 
-  * `cv_url`
+  - `cv_url`
 
-* **`candidate_experiences`** (1–n)
+- **`candidate_experiences`** (1–n)
 
-  * `user_id`, `company`, `position`, `start_date`, `end_date`, `desc`
+  - `user_id`, `company`, `position`, `start_date`, `end_date`, `desc`
 
-* **`documents`**
+- **`documents`**
 
-  * `user_id`, `type` (`KTP`, `IJAZAH`, `SERTIFIKAT`, `CV`), `file_url`, `verified`
+  - `user_id`, `type` (`KTP`, `IJAZAH`, `SERTIFIKAT`, `CV`), `file_url`, `verified`
 
 ### **4.3 Institution**
 
-* **`institutions`** (1–1 per user)
+- **`institutions`** (1–1 per user)
 
-  * `user_id` (owner), `name`, `type` (`blk_pemerintah`/`blk_pesantren`/`lpk`),
+  - `user_id` (owner), `name`, `type` (`blk_pemerintah`/`blk_pesantren`/`lpk`),
 
-  * `address`, `city`, `province`, `lat`, `lng`,
+  - `address`, `city`, `province`, `lat`, `lng`,
 
-  * `email`, `phone`, `pic_name`, `pic_position`, `pic_phone`, `pic_email`,
+  - `email`, `phone`, `pic_name`, `pic_position`, `pic_phone`, `pic_email`,
 
-  * `capacity_month`, `facilities` (text\[\]), `specialties` (text\[\]),
+  - `capacity_month`, `facilities` (text\[\]), `specialties` (text\[\]),
 
-  * `status` (`pending_approval`/`approved`/`rejected`)
+  - `status` (`pending_approval`/`approved`/`rejected`)
 
 ### **4.4 Employer**
 
-* **`employers`** (1–1 per user)
+- **`employers`** (1–1 per user)
 
-  * `user_id`, `company_name`, `industry`, `website`,
+  - `user_id`, `company_name`, `industry`, `website`,
 
-  * `address`, `city`, `province`,
+  - `address`, `city`, `province`,
 
-  * `nib`, `npwp` (optional),
+  - `nib`, `npwp` (optional),
 
-  * `pic_name`, `pic_email`, `pic_phone`,
+  - `pic_name`, `pic_email`, `pic_phone`,
 
-  * `status`
+  - `status`
 
 **Index & Constraints**: pk/fk pada `user_id`, unique pada entitas 1–1, index `status` untuk approval queue.
 
@@ -506,47 +506,47 @@ Infrastruktur dibuat dengan arsitektur **scalable dan secure**, Dapat menangani 
 
 # **5\) Kebijakan Keamanan (RLS – garis besar)**
 
-* **`profiles`**:
+- **`profiles`**:
 
-  * `select`: user dapat melihat dirinya; admin dapat melihat semua.
+  - `select`: user dapat melihat dirinya; admin dapat melihat semua.
 
-  * `update`: hanya pemilik (`auth.uid() = id`) atau admin.
+  - `update`: hanya pemilik (`auth.uid() = id`) atau admin.
 
-* **`candidate_*`**:
+- **`candidate_*`**:
 
-  * hanya pemilik; admin read.
+  - hanya pemilik; admin read.
 
-* **`institutions` / `employers`**:
+- **`institutions` / `employers`**:
 
-  * `insert`: oleh pemilik; `status = 'pending_approval'` default.
+  - `insert`: oleh pemilik; `status = 'pending_approval'` default.
 
-  * `select`:
+  - `select`:
 
-    * publik hanya field yang **public\_safe** (nama, kota, bidang).
+    - publik hanya field yang **public_safe** (nama, kota, bidang).
 
-    * detail penuh hanya owner & admin.
+    - detail penuh hanya owner & admin.
 
-  * `update`: owner hanya saat `status != approved` (atau izinkan edit terbatas), admin selalu.
+  - `update`: owner hanya saat `status != approved` (atau izinkan edit terbatas), admin selalu.
 
-* **Dokumen/Storage**:
+- **Dokumen/Storage**:
 
-  * Bucket terpisah (`private`) untuk dokumen identitas; generate **signed URL**.
+  - Bucket terpisah (`private`) untuk dokumen identitas; generate **signed URL**.
 
 ---
 
 # **6\) Server Actions / API (contoh)**
 
-* `POST /api/auth/set-role` → simpan `intended_role` setelah /join
+- `POST /api/auth/set-role` → simpan `intended_role` setelah /join
 
-* `POST /api/onboarding/candidate` → upsert `profiles`, `candidate_profiles`, `documents`
+- `POST /api/onboarding/candidate` → upsert `profiles`, `candidate_profiles`, `documents`
 
-* `POST /api/onboarding/institution` → upsert `institutions` (→ `pending_approval`)
+- `POST /api/onboarding/institution` → upsert `institutions` (→ `pending_approval`)
 
-* `POST /api/onboarding/employer` → upsert `employers` (→ `pending_approval`)
+- `POST /api/onboarding/employer` → upsert `employers` (→ `pending_approval`)
 
-* `POST /api/cv/generate` → render CV (React-PDF/Puppeteer) → upload ke storage → `cv_url`
+- `POST /api/cv/generate` → render CV (React-PDF/Puppeteer) → upload ke storage → `cv_url`
 
-* `GET /api/me` → profil \+ status onboarding \+ role route
+- `GET /api/me` → profil \+ status onboarding \+ role route
 
 Untuk Next.js App Router, pakai **Server Actions** (+ Zod untuk validasi), atau **route handlers** di `app/api/*`.
 
@@ -554,83 +554,83 @@ Untuk Next.js App Router, pakai **Server Actions** (+ Zod untuk validasi), atau 
 
 # **7\) UI/UX Wizard (detail interaksi)**
 
-* **Stepper** di onboarding: Step 1–4 (progress bar 0–100%).
+- **Stepper** di onboarding: Step 1–4 (progress bar 0–100%).
 
-* **Autosave** tiap blur/tiap step (optimistic update).
+- **Autosave** tiap blur/tiap step (optimistic update).
 
-* **Guard**: bila reload sebelum selesai, kembali ke step terakhir.
+- **Guard**: bila reload sebelum selesai, kembali ke step terakhir.
 
-* **Toast** untuk error validasi & sukses.
+- **Toast** untuk error validasi & sukses.
 
-* **CTA**: “Lanjutkan nanti” (simpan draft).
+- **CTA**: “Lanjutkan nanti” (simpan draft).
 
 ---
 
 # **8\) Email/OTP & Notifikasi**
 
-* **Verifikasi email** saat signup (Supabase Auth).
+- **Verifikasi email** saat signup (Supabase Auth).
 
-* **Optional OTP telp/WA** (Fonnte/Twilio) untuk `phone_verified`.
+- **Optional OTP telp/WA** (Fonnte/Twilio) untuk `phone_verified`.
 
-* Email template:
+- Email template:
 
-  * Welcome (peran berbeda),
+  - Welcome (peran berbeda),
 
-  * Onboarding reminder (jika belum selesai),
+  - Onboarding reminder (jika belum selesai),
 
-  * Approval status (institution/employer).
+  - Approval status (institution/employer).
 
 ---
 
 # **9\) Edge Cases & Aturan**
 
-* **Ganti peran** setelah daftar:
+- **Ganti peran** setelah daftar:
 
-  * izinkan *request role change* (admin approve), atau
+  - izinkan _request role change_ (admin approve), atau
 
-  * izinkan multi-role (`user_roles`), pilih aktif saat login.
+  - izinkan multi-role (`user_roles`), pilih aktif saat login.
 
-* **OAuth tanpa email verifikasi**: paksa tambah email/no. telp.
+- **OAuth tanpa email verifikasi**: paksa tambah email/no. telp.
 
-* **Dokumen sensitif**: hanya owner & admin yang bisa lihat/unduh.
+- **Dokumen sensitif**: hanya owner & admin yang bisa lihat/unduh.
 
-* **Approval Queue**: halaman `/admin/approvals` untuk meninjau `institutions/employers`.
+- **Approval Queue**: halaman `/admin/approvals` untuk meninjau `institutions/employers`.
 
 ---
 
 # **10\) Acceptance Criteria (ringkas)**
 
-* Dari landing, user bisa pilih peran & diarahkan ke register sesuai peran.
+- Dari landing, user bisa pilih peran & diarahkan ke register sesuai peran.
 
-* Registrasi berhasil (email/Google/OTP) → diarahkan ke wizard onboarding peran.
+- Registrasi berhasil (email/Google/OTP) → diarahkan ke wizard onboarding peran.
 
-* Candidate bisa melengkapi profil & **generate CV** (PDF tersimpan).
+- Candidate bisa melengkapi profil & **generate CV** (PDF tersimpan).
 
-* Institution & Employer dapat submit profil → status `pending_approval`.
+- Institution & Employer dapat submit profil → status `pending_approval`.
 
-* User yang belum selesai onboarding **tidak** bisa ke dashboard (redirect wizard).
+- User yang belum selesai onboarding **tidak** bisa ke dashboard (redirect wizard).
 
-* Setelah onboarding selesai (atau approved), user masuk **dashboard perannya**.
+- Setelah onboarding selesai (atau approved), user masuk **dashboard perannya**.
 
-* RLS memastikan data profil hanya dapat diakses pemilik & admin.
+- RLS memastikan data profil hanya dapat diakses pemilik & admin.
 
-* Semua formulir tervalidasi (server & client), autosave berjalan.
+- Semua formulir tervalidasi (server & client), autosave berjalan.
 
 ---
 
 ## **Bonus: Backlog Teknis (siap dipecah ke tickets)**
 
-* FE: `/join`, `/auth/register`, `/onboarding/*` stepper \+ autosave
+- FE: `/join`, `/auth/register`, `/onboarding/*` stepper \+ autosave
 
-* BE: server actions `upsertProfile`, `generateCV`, `submitInstitution`, `submitEmployer`
+- BE: server actions `upsertProfile`, `generateCV`, `submitInstitution`, `submitEmployer`
 
-* DB: migrasi tabel sesuai skema \+ RLS policy
+- DB: migrasi tabel sesuai skema \+ RLS policy
 
-* Storage: bucket `docs` (private), bucket `public-assets` (logo dsb)
+- Storage: bucket `docs` (private), bucket `public-assets` (logo dsb)
 
-* Email: templates (welcome, approval, reminder)
+- Email: templates (welcome, approval, reminder)
 
-* QA: test flow semua peran, test RLS (query langsung), test generate CV
+- QA: test flow semua peran, test RLS (query langsung), test generate CV
 
 # Jobs
 
@@ -664,23 +664,23 @@ Untuk Next.js App Router, pakai **Server Actions** (+ Zod untuk validasi), atau 
 
 **Publik/Kandidat**
 
-* `/jobs` (list \+ filter \+ pagination)
+- `/jobs` (list \+ filter \+ pagination)
 
-* `/jobs/[id]` (detail \+ CTA)
+- `/jobs/[id]` (detail \+ CTA)
 
-* `/applications` (riwayat lamaran kandidat)
+- `/applications` (riwayat lamaran kandidat)
 
-* `/applications/[id]` (detail lamaran—opsional)
+- `/applications/[id]` (detail lamaran—opsional)
 
 **Employer/Admin**
 
-* `/dashboard/employer/jobs` (list & status)
+- `/dashboard/employer/jobs` (list & status)
 
-* `/dashboard/employer/jobs/new` (buat)
+- `/dashboard/employer/jobs/new` (buat)
 
-* `/dashboard/employer/jobs/[id]` (edit \+ pelamar)
+- `/dashboard/employer/jobs/[id]` (edit \+ pelamar)
 
-* `/dashboard/admin/jobs` (moderasi/approval—opsional)
+- `/dashboard/admin/jobs` (moderasi/approval—opsional)
 
 ---
 
@@ -688,45 +688,45 @@ Untuk Next.js App Router, pakai **Server Actions** (+ Zod untuk validasi), atau 
 
 ### **A. Publik/Kandidat**
 
-* **Browse & Filter**: kata kunci, lokasi, negara, kategori, internal/eksternal, tipe kerja, gaji, sebelum deadline
+- **Browse & Filter**: kata kunci, lokasi, negara, kategori, internal/eksternal, tipe kerja, gaji, sebelum deadline
 
-* **Detail Job**: deskripsi, syarat (JLPT, usia, pendidikan), info perusahaan/BLK, benefit, kuota
+- **Detail Job**: deskripsi, syarat (JLPT, usia, pendidikan), info perusahaan/BLK, benefit, kuota
 
-* **Apply Internal**:
+- **Apply Internal**:
 
-  * Cek kelengkapan profil (minimal: data pribadi, pendidikan, 3 skill, CV)
+  - Cek kelengkapan profil (minimal: data pribadi, pendidikan, 3 skill, CV)
 
-  * Upload CV / pakai CV dari profil
+  - Upload CV / pakai CV dari profil
 
-  * Screening Q\&A (opsional): 2–5 pertanyaan (short answer)
+  - Screening Q\&A (opsional): 2–5 pertanyaan (short answer)
 
-  * Kirim → status awal **submitted**
+  - Kirim → status awal **submitted**
 
-* **Lowongan Eksternal**: tombol “Kunjungi” (tracking klik)
+- **Lowongan Eksternal**: tombol “Kunjungi” (tracking klik)
 
-* **Riwayat Lamaran**: status, jadwal interview, catatan HR, unduh bukti
+- **Riwayat Lamaran**: status, jadwal interview, catatan HR, unduh bukti
 
 ### **B. Employer**
 
-* **CRUD** lowongan milik sendiri
+- **CRUD** lowongan milik sendiri
 
-* Set **tipe**: internal (apply di sistem) / eksternal (link out)
+- Set **tipe**: internal (apply di sistem) / eksternal (link out)
 
-* Set **deadline**, **quota**, **salary range**, **requirements** (json)
+- Set **deadline**, **quota**, **salary range**, **requirements** (json)
 
-* **Pelamar**: lihat data profil+CV, shortlist, ubah status, jadwal interview
+- **Pelamar**: lihat data profil+CV, shortlist, ubah status, jadwal interview
 
-* **Export** pelamar (CSV)
+- **Export** pelamar (CSV)
 
 ### **C. Admin**
 
-* CRUD semua job
+- CRUD semua job
 
-* **Approval** job employer baru (opsional)
+- **Approval** job employer baru (opsional)
 
-* Moderasi konten (kata terlarang, spam)
+- Moderasi konten (kata terlarang, spam)
 
-* Analytics: pelamar per job, time-to-fill, sumber traffic (UTM)
+- Analytics: pelamar per job, time-to-fill, sumber traffic (UTM)
 
 ---
 
@@ -736,77 +736,77 @@ Untuk Next.js App Router, pakai **Server Actions** (+ Zod untuk validasi), atau 
 
 **`jobs`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `title` (text), `slug` (text unique)
+- `title` (text), `slug` (text unique)
 
-* `organization_id` (uuid fk → employers / institutions)
+- `organization_id` (uuid fk → employers / institutions)
 
-* `is_internal` (bool) — true \= aplikasi di sistem
+- `is_internal` (bool) — true \= aplikasi di sistem
 
-* `external_url` (text, nullable)
+- `external_url` (text, nullable)
 
-* `location_city` (text), `location_country` (text)
+- `location_city` (text), `location_country` (text)
 
-* `employment_type` (enum: fulltime/parttime/internship/contract)
+- `employment_type` (enum: fulltime/parttime/internship/contract)
 
-* `category` (text)
+- `category` (text)
 
-* `requirements` (jsonb) — {education, jlpt, age\_min, skills\[\]}
+- `requirements` (jsonb) — {education, jlpt, age_min, skills\[\]}
 
-* `description` (text), `benefits` (text)
+- `description` (text), `benefits` (text)
 
-* `salary_min` (int), `salary_max` (int), `currency` (text)
+- `salary_min` (int), `salary_max` (int), `currency` (text)
 
-* `quota` (int)
+- `quota` (int)
 
-* `deadline` (date)
+- `deadline` (date)
 
-* `status` (enum: draft/pending/published/closed/archived)
+- `status` (enum: draft/pending/published/closed/archived)
 
-* `created_by` (uuid fk → auth.users)
+- `created_by` (uuid fk → auth.users)
 
-* `created_at`, `updated_at`
+- `created_at`, `updated_at`
 
 **`applications`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `job_id` (uuid fk → jobs)
+- `job_id` (uuid fk → jobs)
 
-* `user_id` (uuid fk → auth.users)
+- `user_id` (uuid fk → auth.users)
 
-* `resume_url` (text) // bisa auto dari profil
+- `resume_url` (text) // bisa auto dari profil
 
-* `answers` (jsonb) // jawaban screening
+- `answers` (jsonb) // jawaban screening
 
-* `status` (enum: submitted/screening/interview/offer/hired/rejected)
+- `status` (enum: submitted/screening/interview/offer/hired/rejected)
 
-* `notes` (text) // catatan HR
+- `notes` (text) // catatan HR
 
-* `interview_at` (timestamptz, nullable)
+- `interview_at` (timestamptz, nullable)
 
-* `created_at`, `updated_at`
+- `created_at`, `updated_at`
 
-* unique constraint: (`job_id`, `user_id`) — 1 kandidat 1 lamaran per job
+- unique constraint: (`job_id`, `user_id`) — 1 kandidat 1 lamaran per job
 
 **`employers`** (kalau belum ada pada modul auth)
 
-* `id` (uuid pk \= owner user) atau `org_id` terpisah
+- `id` (uuid pk \= owner user) atau `org_id` terpisah
 
-* `company_name`, `industry`, `city`, `province`, `status` (pending/approved)
+- `company_name`, `industry`, `city`, `province`, `status` (pending/approved)
 
-* dsb (lihat modul auth)
+- dsb (lihat modul auth)
 
 **Indeks yang disarankan**
 
-* `idx_jobs_status_deadline` (status, deadline)
+- `idx_jobs_status_deadline` (status, deadline)
 
-* `idx_jobs_text_search` (title, description) — pakai **pg\_trgm** atau **tsvector**
+- `idx_jobs_text_search` (title, description) — pakai **pg_trgm** atau **tsvector**
 
-* `idx_apps_job_id_status` (job\_id, status)
+- `idx_apps_job_id_status` (job_id, status)
 
-* `idx_apps_user_id` (user\_id)
+- `idx_apps_user_id` (user_id)
 
 ---
 
@@ -814,39 +814,39 @@ Untuk Next.js App Router, pakai **Server Actions** (+ Zod untuk validasi), atau 
 
 **`jobs`**
 
-* `select`:
+- `select`:
 
-  * publik: `status = 'published' AND (deadline IS NULL OR deadline >= now())`
+  - publik: `status = 'published' AND (deadline IS NULL OR deadline >= now())`
 
-  * employer: job yang `created_by = auth.uid()`
+  - employer: job yang `created_by = auth.uid()`
 
-  * admin: semua
+  - admin: semua
 
-* `insert/update/delete`:
+- `insert/update/delete`:
 
-  * employer: hanya job `created_by = auth.uid()`
+  - employer: hanya job `created_by = auth.uid()`
 
-  * admin: semua
+  - admin: semua
 
 **`applications`**
 
-* `select`:
+- `select`:
 
-  * candidate: `user_id = auth.uid()`
+  - candidate: `user_id = auth.uid()`
 
-  * employer: join ke `jobs.created_by = auth.uid()` (lihat pelamar hanya untuk job miliknya)
+  - employer: join ke `jobs.created_by = auth.uid()` (lihat pelamar hanya untuk job miliknya)
 
-  * admin: semua
+  - admin: semua
 
-* `insert`:
+- `insert`:
 
-  * candidate only; to job `status='published'` & within deadline; **unique (job\_id,user\_id)**
+  - candidate only; to job `status='published'` & within deadline; **unique (job_id,user_id)**
 
-* `update`:
+- `update`:
 
-  * candidate: hanya boleh batalkan (opsional), atau **tidak boleh** sama sekali
+  - candidate: hanya boleh batalkan (opsional), atau **tidak boleh** sama sekali
 
-  * employer/admin: boleh update `status`, `notes`, `interview_at` pada aplikasi job miliknya
+  - employer/admin: boleh update `status`, `notes`, `interview_at` pada aplikasi job miliknya
 
 ---
 
@@ -854,27 +854,27 @@ Untuk Next.js App Router, pakai **Server Actions** (+ Zod untuk validasi), atau 
 
 **Saat publish job (internal):**
 
-* `title`, `description`, `requirements` minimal terisi
+- `title`, `description`, `requirements` minimal terisi
 
-* `deadline` ≥ today
+- `deadline` ≥ today
 
-* `status` diubah ke `published`
+- `status` diubah ke `published`
 
 **Saat apply:**
 
-* Jika `is_internal = false` → tidak bisa apply (redirect ke `external_url`)
+- Jika `is_internal = false` → tidak bisa apply (redirect ke `external_url`)
 
-* Kandidat harus memiliki:
+- Kandidat harus memiliki:
 
-  * `profiles.onboarding_completed = true`
+  - `profiles.onboarding_completed = true`
 
-  * minimal 3 `skills`, `education_level` terisi
+  - minimal 3 `skills`, `education_level` terisi
 
-  * `cv_url` tersedia **atau** upload `resume_url` pada apply
+  - `cv_url` tersedia **atau** upload `resume_url` pada apply
 
 **Penutupan job:**
 
-* Otomatis `closed` jika lewat `deadline`, tetapi **halaman tetap bisa dibaca** (tanpa tombol apply)
+- Otomatis `closed` jika lewat `deadline`, tetapi **halaman tetap bisa dibaca** (tanpa tombol apply)
 
 ---
 
@@ -909,37 +909,37 @@ Implementasi: **Next.js Server Actions** \+ **Supabase client (server)**, valida
 
 **Publik/Kandidat**
 
-* `JobsFilterBar`: search \+ select (kategori, lokasi, internal/eksternal, tipe)
+- `JobsFilterBar`: search \+ select (kategori, lokasi, internal/eksternal, tipe)
 
-* `JobCard`: ringkas (judul, perusahaan, lokasi, badge internal/eksternal, deadline)
+- `JobCard`: ringkas (judul, perusahaan, lokasi, badge internal/eksternal, deadline)
 
-* `JobDetail`: tab Deskripsi/Syarat/Benefit/Perusahaan
+- `JobDetail`: tab Deskripsi/Syarat/Benefit/Perusahaan
 
-* `ApplyDialog`: upload/pilih CV, form Q\&A, ringkasan syarat
+- `ApplyDialog`: upload/pilih CV, form Q\&A, ringkasan syarat
 
-* `ApplicationsTable`: status lamaran \+ actions (view detail, withdraw opsional)
+- `ApplicationsTable`: status lamaran \+ actions (view detail, withdraw opsional)
 
 **Employer/Admin**
 
-* `JobForm`: title, desc, req (chip input skill), salary slider, deadline, toggle internal/eksternal
+- `JobForm`: title, desc, req (chip input skill), salary slider, deadline, toggle internal/eksternal
 
-* `JobsTable`: kolom status, deadline, applicants count, actions (publish/close)
+- `JobsTable`: kolom status, deadline, applicants count, actions (publish/close)
 
-* `ApplicantsList`: filter status, quick actions (shortlist, schedule)
+- `ApplicantsList`: filter status, quick actions (shortlist, schedule)
 
-* `ApplicantDrawer`: profil kandidat, CV preview, timeline status
+- `ApplicantDrawer`: profil kandidat, CV preview, timeline status
 
 **UX Notes**
 
-* Badge warna:
+- Badge warna:
 
-  * **Internal**: oranye (apply di sistem)
+  - **Internal**: oranye (apply di sistem)
 
-  * **Eksternal**: abu (link keluar)
+  - **Eksternal**: abu (link keluar)
 
-* Status aplikasi berbentuk **stepper/timeline**
+- Status aplikasi berbentuk **stepper/timeline**
 
-* **Empty states** informatif \+ CTA (contoh: “Belum ada lowongan. Tambah sekarang.”)
+- **Empty states** informatif \+ CTA (contoh: “Belum ada lowongan. Tambah sekarang.”)
 
 ---
 
@@ -947,39 +947,39 @@ Implementasi: **Next.js Server Actions** \+ **Supabase client (server)**, valida
 
 **Trigger**
 
-* Apply masuk → email ke employer/PIC
+- Apply masuk → email ke employer/PIC
 
-* Perubahan status → email ke kandidat
+- Perubahan status → email ke kandidat
 
-* 24h sebelum interview → pengingat (email/WA)
+- 24h sebelum interview → pengingat (email/WA)
 
-* Job mendekati deadline → reminder ke employer (opsional)
+- Job mendekati deadline → reminder ke employer (opsional)
 
 **Channel**
 
-* Email (Resend/SendGrid)
+- Email (Resend/SendGrid)
 
-* WhatsApp (Fonnte/Twilio) (opsional—set nanti)
+- WhatsApp (Fonnte/Twilio) (opsional—set nanti)
 
 ---
 
 # **10\) Acceptance Criteria (Checklist)**
 
-* Publik bisa melihat daftar lowongan terfilter & tersortir
+- Publik bisa melihat daftar lowongan terfilter & tersortir
 
-* Detail job tampil lengkap; tombol **Apply** hanya muncul jika `is_internal=true`, `status=published`, belum lewat deadline
+- Detail job tampil lengkap; tombol **Apply** hanya muncul jika `is_internal=true`, `status=published`, belum lewat deadline
 
-* Kandidat bisa apply (dengan CV dari profil atau upload baru) dan melihat statusnya
+- Kandidat bisa apply (dengan CV dari profil atau upload baru) dan melihat statusnya
 
-* Employer bisa **create/publish/close** lowongan & melihat pelamar job miliknya
+- Employer bisa **create/publish/close** lowongan & melihat pelamar job miliknya
 
-* Employer/Admin dapat mengubah **status lamaran** (screening → interview → offer → hired/rejected)
+- Employer/Admin dapat mengubah **status lamaran** (screening → interview → offer → hired/rejected)
 
-* RLS menegakkan batas akses (kandidat hanya lamaran sendiri; employer hanya pelamar job miliknya)
+- RLS menegakkan batas akses (kandidat hanya lamaran sendiri; employer hanya pelamar job miliknya)
 
-* Deadline menutup apply otomatis
+- Deadline menutup apply otomatis
 
-* Audit basic (timestamps) terekam
+- Audit basic (timestamps) terekam
 
 ---
 
@@ -989,42 +989,42 @@ Implementasi: **Next.js Server Actions** \+ **Supabase client (server)**, valida
 `create type app_status as enum ('submitted','screening','interview','offer','hired','rejected');`
 
 `create table jobs (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `title text not null,`  
-  `slug text unique not null,`  
-  `organization_id uuid references employers(id),`  
-  `is_internal boolean not null default true,`  
-  `external_url text,`  
-  `location_city text,`  
-  `location_country text,`  
-  `employment_type text,`  
-  `category text,`  
-  `requirements jsonb default '{}'::jsonb,`  
-  `description text not null,`  
-  `benefits text,`  
-  `salary_min int,`  
-  `salary_max int,`  
-  `currency text default 'IDR',`  
-  `quota int,`  
-  `deadline date,`  
-  `status job_status not null default 'draft',`  
-  `created_by uuid not null references auth.users(id),`  
-  `created_at timestamptz default now(),`  
-  `updated_at timestamptz default now()`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `title text not null,`  
+ `slug text unique not null,`  
+ `organization_id uuid references employers(id),`  
+ `is_internal boolean not null default true,`  
+ `external_url text,`  
+ `location_city text,`  
+ `location_country text,`  
+ `employment_type text,`  
+ `category text,`  
+ `requirements jsonb default '{}'::jsonb,`  
+ `description text not null,`  
+ `benefits text,`  
+ `salary_min int,`  
+ `salary_max int,`  
+ `currency text default 'IDR',`  
+ `quota int,`  
+ `deadline date,`  
+ `status job_status not null default 'draft',`  
+ `created_by uuid not null references auth.users(id),`  
+ `created_at timestamptz default now(),`  
+ `updated_at timestamptz default now()`  
 `);`
 
 `create table applications (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `job_id uuid not null references jobs(id) on delete cascade,`  
-  `user_id uuid not null references auth.users(id) on delete cascade,`  
-  `resume_url text,`  
-  `answers jsonb,`  
-  `status app_status not null default 'submitted',`  
-  `notes text,`  
-  `interview_at timestamptz,`  
-  `created_at timestamptz default now(),`  
-  `updated_at timestamptz default now(),`  
-  `unique (job_id, user_id)`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `job_id uuid not null references jobs(id) on delete cascade,`  
+ `user_id uuid not null references auth.users(id) on delete cascade,`  
+ `resume_url text,`  
+ `answers jsonb,`  
+ `status app_status not null default 'submitted',`  
+ `notes text,`  
+ `interview_at timestamptz,`  
+ `created_at timestamptz default now(),`  
+ `updated_at timestamptz default now(),`  
+ `unique (job_id, user_id)`  
 `);`
 
 RLS & policy mengikuti garis besar di atas (candidate/employer/admin).
@@ -1041,7 +1041,7 @@ RLS & policy mengikuti garis besar di atas (candidate/employer/admin).
 
 3. Pilih kelas → **Daftar/Enroll** (cek kelengkapan profil & syarat)
 
-4. Lihat status di `/enrollments` (applied → confirmed → in\_progress → completed/failed)
+4. Lihat status di `/enrollments` (applied → confirmed → in_progress → completed/failed)
 
 5. Setelah selesai & lulus → **sertifikat digital** (QR verifikasi) dapat diunduh
 
@@ -1063,25 +1063,25 @@ RLS & policy mengikuti garis besar di atas (candidate/employer/admin).
 
 **Publik/Kandidat**
 
-* `/trainings` (list \+ filter \+ pagination)
+- `/trainings` (list \+ filter \+ pagination)
 
-* `/trainings/[programId]` (detail program \+ list kelas)
+- `/trainings/[programId]` (detail program \+ list kelas)
 
-* `/classes/[classId]` (detail kelas \+ CTA daftar)
+- `/classes/[classId]` (detail kelas \+ CTA daftar)
 
-* `/enrollments` (riwayat & status)
+- `/enrollments` (riwayat & status)
 
 **Institution/Admin**
 
-* `/dashboard/institution/trainings` (list program)
+- `/dashboard/institution/trainings` (list program)
 
-* `/dashboard/institution/trainings/new` (buat program)
+- `/dashboard/institution/trainings/new` (buat program)
 
-* `/dashboard/institution/trainings/[programId]` (edit \+ kelas)
+- `/dashboard/institution/trainings/[programId]` (edit \+ kelas)
 
-* `/dashboard/institution/classes/[classId]` (kelola peserta, absensi, nilai, sertifikat)
+- `/dashboard/institution/classes/[classId]` (kelola peserta, absensi, nilai, sertifikat)
 
-* `/dashboard/admin/trainings` (moderasi lintas lembaga—opsional)
+- `/dashboard/admin/trainings` (moderasi lintas lembaga—opsional)
 
 ---
 
@@ -1089,55 +1089,55 @@ RLS & policy mengikuti garis besar di atas (candidate/employer/admin).
 
 ### **A. Publik/Kandidat**
 
-* **Browse & Filter**: kategori (Bahasa Jepang, Digital, Manufaktur, dsb), penyelenggara (LPK/BLK), mode (online/offline/hybrid), status (open/closed/ongoing/completed), berbiaya/gratis
+- **Browse & Filter**: kategori (Bahasa Jepang, Digital, Manufaktur, dsb), penyelenggara (LPK/BLK), mode (online/offline/hybrid), status (open/closed/ongoing/completed), berbiaya/gratis
 
-* **Detail Program**: deskripsi, prasyarat, kompetensi hasil belajar, durasi tipikal, penyelenggara
+- **Detail Program**: deskripsi, prasyarat, kompetensi hasil belajar, durasi tipikal, penyelenggara
 
-* **List Kelas**: tanggal mulai–akhir, venue/zoom, kapasitas, **status pendaftaran** (open/closed/waitlist), biaya (opsional)
+- **List Kelas**: tanggal mulai–akhir, venue/zoom, kapasitas, **status pendaftaran** (open/closed/waitlist), biaya (opsional)
 
-* **Daftar/Enroll**:
+- **Daftar/Enroll**:
 
-  * Validasi prasyarat (mis. JLPT N5, skill minimal)
+  - Validasi prasyarat (mis. JLPT N5, skill minimal)
 
-  * Upload dokumen tambahan (opsional)
+  - Upload dokumen tambahan (opsional)
 
-  * Set status awal **applied** → menunggu konfirmasi penyelenggara
+  - Set status awal **applied** → menunggu konfirmasi penyelenggara
 
-* **Progres & Sertifikat**:
+- **Progres & Sertifikat**:
 
-  * Lihat status (confirmed → in\_progress → completed/failed)
+  - Lihat status (confirmed → in_progress → completed/failed)
 
-  * Unduh sertifikat (jika lulus)
+  - Unduh sertifikat (jika lulus)
 
 ### **B. LPK/BLK (Institution)**
 
-* **CRUD Program & Kelas** (hanya milik organisasinya)
+- **CRUD Program & Kelas** (hanya milik organisasinya)
 
-* **Kelola Pendaftar**:
+- **Kelola Pendaftar**:
 
-  * Approve/deny/waitlist; kapasitas otomatis terhitung
+  - Approve/deny/waitlist; kapasitas otomatis terhitung
 
-  * Komunikasi peserta (email/WA template)
+  - Komunikasi peserta (email/WA template)
 
-* **Absensi & Penilaian**:
+- **Absensi & Penilaian**:
 
-  * Input kehadiran per pertemuan
+  - Input kehadiran per pertemuan
 
-  * Nilai akhir / kelulusan
+  - Nilai akhir / kelulusan
 
-* **Generate Sertifikat**:
+- **Generate Sertifikat**:
 
-  * Template brandable, nomor sertifikat, QR verifikasi
+  - Template brandable, nomor sertifikat, QR verifikasi
 
-  * Unggah tanda tangan digital (opsional)
+  - Unggah tanda tangan digital (opsional)
 
 ### **C. Admin**
 
-* Lihat & moderasi semua program/kelas lintas lembaga
+- Lihat & moderasi semua program/kelas lintas lembaga
 
-* Batasan konten (larangan, spam)
+- Batasan konten (larangan, spam)
 
-* Agregasi laporan tingkat provinsi (jumlah batch, peserta, completion rate)
+- Agregasi laporan tingkat provinsi (jumlah batch, peserta, completion rate)
 
 ---
 
@@ -1147,81 +1147,81 @@ RLS & policy mengikuti garis besar di atas (candidate/employer/admin).
 
 **`training_programs`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `title` (text), `slug` (unique)
+- `title` (text), `slug` (unique)
 
-* `provider_id` (uuid fk → institutions.id)
+- `provider_id` (uuid fk → institutions.id)
 
-* `category` (text)
+- `category` (text)
 
-* `description` (text)
+- `description` (text)
 
-* `prerequisites` (jsonb) — {jlpt, skills\[\], education, age\_min?}
+- `prerequisites` (jsonb) — {jlpt, skills\[\], education, age_min?}
 
-* `mode` (enum: online/offline/hybrid)
+- `mode` (enum: online/offline/hybrid)
 
-* `status` (enum: draft/published/archived)
+- `status` (enum: draft/published/archived)
 
-* `is_external` (bool) & `external_url` (nullable)
+- `is_external` (bool) & `external_url` (nullable)
 
-* `created_by` (uuid fk → auth.users)
+- `created_by` (uuid fk → auth.users)
 
-* `created_at`, `updated_at`
+- `created_at`, `updated_at`
 
 **`training_classes`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `program_id` (uuid fk → training\_programs.id)
+- `program_id` (uuid fk → training_programs.id)
 
-* `start_date` (date), `end_date` (date)
+- `start_date` (date), `end_date` (date)
 
-* `schedule_json` (jsonb) // sesi per tanggal (opsional)
+- `schedule_json` (jsonb) // sesi per tanggal (opsional)
 
-* `venue` (text) // alamat/zoom link
+- `venue` (text) // alamat/zoom link
 
-* `capacity` (int)
+- `capacity` (int)
 
-* `enrollment_status` (enum: open/closed/waitlist)
+- `enrollment_status` (enum: open/closed/waitlist)
 
-* `fee_amount` (int, nullable), `currency` (text, default 'IDR')
+- `fee_amount` (int, nullable), `currency` (text, default 'IDR')
 
-* `status` (enum: upcoming/ongoing/completed/cancelled)
+- `status` (enum: upcoming/ongoing/completed/cancelled)
 
-* `created_at`, `updated_at`
+- `created_at`, `updated_at`
 
 **`enrollments`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `class_id` (uuid fk → training\_classes.id on delete cascade)
+- `class_id` (uuid fk → training_classes.id on delete cascade)
 
-* `user_id` (uuid fk → auth.users.id on delete cascade)
+- `user_id` (uuid fk → auth.users.id on delete cascade)
 
-* `status` (enum: applied/confirmed/in\_progress/completed/failed/cancelled)
+- `status` (enum: applied/confirmed/in_progress/completed/failed/cancelled)
 
-* `attendance_json` (jsonb) // { "2025-10-01": true, ... }
+- `attendance_json` (jsonb) // { "2025-10-01": true, ... }
 
-* `score` (numeric, nullable), `remarks` (text)
+- `score` (numeric, nullable), `remarks` (text)
 
-* `certificate_url` (text, nullable)
+- `certificate_url` (text, nullable)
 
-* `created_at`, `updated_at`
+- `created_at`, `updated_at`
 
-* unique (`class_id`,`user_id`)
+- unique (`class_id`,`user_id`)
 
 **`certificates`** (opsional, jika dipisah)
 
-* `id`, `enrollment_id` (unique fk), `number`, `issued_at`, `pdf_url`, `verify_token`
+- `id`, `enrollment_id` (unique fk), `number`, `issued_at`, `pdf_url`, `verify_token`
 
 **Indeks yang disarankan**
 
-* `idx_programs_status_category_provider`
+- `idx_programs_status_category_provider`
 
-* `idx_classes_program_status_enrollment`
+- `idx_classes_program_status_enrollment`
 
-* `idx_enrollments_user_status`
+- `idx_enrollments_user_status`
 
 ---
 
@@ -1229,37 +1229,37 @@ RLS & policy mengikuti garis besar di atas (candidate/employer/admin).
 
 **`training_programs`**
 
-* `select`: publik bisa lihat yang `status='published'` & `is_external OR provider.status='approved'`
+- `select`: publik bisa lihat yang `status='published'` & `is_external OR provider.status='approved'`
 
-* `insert/update/delete`:
+- `insert/update/delete`:
 
-  * **Institution**: hanya untuk `provider_id` miliknya (`institutions.user_id = auth.uid()`), tergantung model kepemilikan
+  - **Institution**: hanya untuk `provider_id` miliknya (`institutions.user_id = auth.uid()`), tergantung model kepemilikan
 
-  * **Admin**: semua
+  - **Admin**: semua
 
 **`training_classes`**
 
-* `select`: publik boleh lihat kelas dari `program.status='published'`
+- `select`: publik boleh lihat kelas dari `program.status='published'`
 
-* `insert/update/delete`: owner institution & admin
+- `insert/update/delete`: owner institution & admin
 
 **`enrollments`**
 
-* `select`:
+- `select`:
 
-  * Kandidat: hanya miliknya (`user_id = auth.uid()`)
+  - Kandidat: hanya miliknya (`user_id = auth.uid()`)
 
-  * Institution: hanya untuk kelas dalam `program.provider_id` miliknya (join)
+  - Institution: hanya untuk kelas dalam `program.provider_id` miliknya (join)
 
-  * Admin: semua
+  - Admin: semua
 
-* `insert`: kandidat untuk kelas `enrollment_status='open'`
+- `insert`: kandidat untuk kelas `enrollment_status='open'`
 
-* `update`:
+- `update`:
 
-  * Institution/Admin ubah `status/attendance/score/certificate_url`
+  - Institution/Admin ubah `status/attendance/score/certificate_url`
 
-  * Kandidat bisa `cancel` (opsional, sebelum `confirmed`)
+  - Kandidat bisa `cancel` (opsional, sebelum `confirmed`)
 
 ---
 
@@ -1267,37 +1267,37 @@ RLS & policy mengikuti garis besar di atas (candidate/employer/admin).
 
 **Publish Program**
 
-* `title`, `description`, `category`, `mode` terisi
+- `title`, `description`, `category`, `mode` terisi
 
-* jika `is_external=true` → butuh `external_url` (apply disabled)
+- jika `is_external=true` → butuh `external_url` (apply disabled)
 
 **Buat Kelas**
 
-* `start_date ≤ end_date`, `capacity ≥ 1`
+- `start_date ≤ end_date`, `capacity ≥ 1`
 
-* `enrollment_status` default `open`, auto `closed` jika kapasitas penuh (opsional)
+- `enrollment_status` default `open`, auto `closed` jika kapasitas penuh (opsional)
 
 **Enroll**
 
-* Kandidat harus **onboarding lengkap** (profil minimal \+ dokumen yang disyaratkan)
+- Kandidat harus **onboarding lengkap** (profil minimal \+ dokumen yang disyaratkan)
 
-* Cek `enrollment_status='open'` & kapasitas tersisa \> 0
+- Cek `enrollment_status='open'` & kapasitas tersisa \> 0
 
-* Set status awal `applied` → **institution confirm** → `confirmed`
+- Set status awal `applied` → **institution confirm** → `confirmed`
 
 **Status kelas otomatis**
 
-* `upcoming` → ketika `now() < start_date`
+- `upcoming` → ketika `now() < start_date`
 
-* `ongoing` → `start_date ≤ now() ≤ end_date`
+- `ongoing` → `start_date ≤ now() ≤ end_date`
 
-* `completed` → `now() > end_date` (atau manual)
+- `completed` → `now() > end_date` (atau manual)
 
 **Sertifikat**
 
-* Diterbitkan ketika `status='completed'` dan `score`/kriteria lulus terpenuhi
+- Diterbitkan ketika `status='completed'` dan `score`/kriteria lulus terpenuhi
 
-* Simpan `certificate_url` & (opsional) buat record `certificates` dengan `verify_token` random → **URL verifikasi** publik
+- Simpan `certificate_url` & (opsional) buat record `certificates` dengan `verify_token` random → **URL verifikasi** publik
 
 ---
 
@@ -1332,39 +1332,39 @@ Validasi **Zod**, jalankan di **Server Actions** (Next.js), akses DB via Supabas
 
 **Publik/Kandidat**
 
-* `TrainingFilterBar` (search, kategori, mode, penyelenggara)
+- `TrainingFilterBar` (search, kategori, mode, penyelenggara)
 
-* `ProgramCard` (judul, kategori, provider, ringkas prasyarat)
+- `ProgramCard` (judul, kategori, provider, ringkas prasyarat)
 
-* `ProgramDetail` (tab: Overview, Prasyarat, Kelas)
+- `ProgramDetail` (tab: Overview, Prasyarat, Kelas)
 
-* `ClassCard` (tanggal, venue/zoom, kapasitas, status pendaftaran)
+- `ClassCard` (tanggal, venue/zoom, kapasitas, status pendaftaran)
 
-* `EnrollDialog` (cek profil, upload dokumen tambahan bila disyaratkan)
+- `EnrollDialog` (cek profil, upload dokumen tambahan bila disyaratkan)
 
-* `EnrollmentsTable` (status, jadwal, progres, sertifikat)
+- `EnrollmentsTable` (status, jadwal, progres, sertifikat)
 
 **Institution/Admin**
 
-* `ProgramForm` (judul, deskripsi, prasyarat json builder, mode)
+- `ProgramForm` (judul, deskripsi, prasyarat json builder, mode)
 
-* `ClassForm` (tanggal, venue, kapasitas, biaya, status pendaftaran)
+- `ClassForm` (tanggal, venue, kapasitas, biaya, status pendaftaran)
 
-* `ApplicantsList` (pendaftar per kelas: approve/deny/waitlist)
+- `ApplicantsList` (pendaftar per kelas: approve/deny/waitlist)
 
-* `AttendanceSheet` (tabel kehadiran per pertemuan)
+- `AttendanceSheet` (tabel kehadiran per pertemuan)
 
-* `ScoreForm` (nilai & kelulusan)
+- `ScoreForm` (nilai & kelulusan)
 
-* `CertificatePreview` (nomor sertifikat \+ QR)
+- `CertificatePreview` (nomor sertifikat \+ QR)
 
 **UX Notes**
 
-* **Stepper** untuk pendaftaran (cek prasyarat → konfirmasi data → submit)
+- **Stepper** untuk pendaftaran (cek prasyarat → konfirmasi data → submit)
 
-* **Badge warna**: status pendaftaran (open/closed/waitlist), status kelas (upcoming/ongoing/completed)
+- **Badge warna**: status pendaftaran (open/closed/waitlist), status kelas (upcoming/ongoing/completed)
 
-* **Empty state** dengan CTA “Lihat Kelas Lain” bila kelas penuh/closed
+- **Empty state** dengan CTA “Lihat Kelas Lain” bila kelas penuh/closed
 
 ---
 
@@ -1372,39 +1372,39 @@ Validasi **Zod**, jalankan di **Server Actions** (Next.js), akses DB via Supabas
 
 **Trigger**
 
-* Pendaftaran masuk → email ke penyelenggara
+- Pendaftaran masuk → email ke penyelenggara
 
-* Status pendaftaran berubah (confirmed/denied) → email ke peserta
+- Status pendaftaran berubah (confirmed/denied) → email ke peserta
 
-* Pengingat H-1 sebelum kelas mulai (opsional WA)
+- Pengingat H-1 sebelum kelas mulai (opsional WA)
 
-* Sertifikat diterbitkan → email link unduhan \+ link verifikasi publik
+- Sertifikat diterbitkan → email link unduhan \+ link verifikasi publik
 
 **Channel**
 
-* Email (Resend/SendGrid)
+- Email (Resend/SendGrid)
 
-* WhatsApp (Fonnte/Twilio) – opsional
+- WhatsApp (Fonnte/Twilio) – opsional
 
 ---
 
 # **10\) Acceptance Criteria (Checklist)**
 
-* Publik bisa melihat daftar program & kelas dengan filter yang relevan
+- Publik bisa melihat daftar program & kelas dengan filter yang relevan
 
-* Detail program memuat prasyarat, kompetensi, provider, dan daftar kelas aktif
+- Detail program memuat prasyarat, kompetensi, provider, dan daftar kelas aktif
 
-* Kandidat bisa **enroll** ke kelas `open`, dengan validasi prasyarat & kapasitas
+- Kandidat bisa **enroll** ke kelas `open`, dengan validasi prasyarat & kapasitas
 
-* LPK/BLK dapat **CRUD program & kelas** miliknya dan **kelola pendaftar**
+- LPK/BLK dapat **CRUD program & kelas** miliknya dan **kelola pendaftar**
 
-* Absensi dan nilai dapat diinput; status enrolment berubah sesuai progres
+- Absensi dan nilai dapat diinput; status enrolment berubah sesuai progres
 
-* Sertifikat digital dapat diterbitkan & diverifikasi
+- Sertifikat digital dapat diterbitkan & diverifikasi
 
-* RLS menegakkan akses (kandidat hanya enrolment miliknya; institution hanya kelasnya)
+- RLS menegakkan akses (kandidat hanya enrolment miliknya; institution hanya kelasnya)
 
-* Status kelas & pendaftaran mengikuti aturan tanggal & kapasitas
+- Status kelas & pendaftaran mengikuti aturan tanggal & kapasitas
 
 ---
 
@@ -1416,50 +1416,50 @@ Validasi **Zod**, jalankan di **Server Actions** (Next.js), akses DB via Supabas
 `create type enroll_open as enum ('open','closed','waitlist');`
 
 `create table training_programs (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `title text not null,`  
-  `slug text unique not null,`  
-  `provider_id uuid not null references institutions(id),`  
-  `category text,`  
-  `description text,`  
-  `prerequisites jsonb default '{}'::jsonb,`  
-  `mode text check (mode in ('online','offline','hybrid')),`  
-  `status program_status not null default 'draft',`  
-  `is_external boolean not null default false,`  
-  `external_url text,`  
-  `created_by uuid not null references auth.users(id),`  
-  `created_at timestamptz default now(),`  
-  `updated_at timestamptz default now()`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `title text not null,`  
+ `slug text unique not null,`  
+ `provider_id uuid not null references institutions(id),`  
+ `category text,`  
+ `description text,`  
+ `prerequisites jsonb default '{}'::jsonb,`  
+ `mode text check (mode in ('online','offline','hybrid')),`  
+ `status program_status not null default 'draft',`  
+ `is_external boolean not null default false,`  
+ `external_url text,`  
+ `created_by uuid not null references auth.users(id),`  
+ `created_at timestamptz default now(),`  
+ `updated_at timestamptz default now()`  
 `);`
 
 `create table training_classes (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `program_id uuid not null references training_programs(id) on delete cascade,`  
-  `start_date date not null,`  
-  `end_date date not null,`  
-  `schedule_json jsonb,`  
-  `venue text,`  
-  `capacity int not null check (capacity > 0),`  
-  `enrollment_status enroll_open not null default 'open',`  
-  `fee_amount int,`  
-  `currency text default 'IDR',`  
-  `status class_status not null default 'upcoming',`  
-  `created_at timestamptz default now(),`  
-  `updated_at timestamptz default now()`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `program_id uuid not null references training_programs(id) on delete cascade,`  
+ `start_date date not null,`  
+ `end_date date not null,`  
+ `schedule_json jsonb,`  
+ `venue text,`  
+ `capacity int not null check (capacity > 0),`  
+ `enrollment_status enroll_open not null default 'open',`  
+ `fee_amount int,`  
+ `currency text default 'IDR',`  
+ `status class_status not null default 'upcoming',`  
+ `created_at timestamptz default now(),`  
+ `updated_at timestamptz default now()`  
 `);`
 
 `create table enrollments (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `class_id uuid not null references training_classes(id) on delete cascade,`  
-  `user_id uuid not null references auth.users(id) on delete cascade,`  
-  `status enroll_status not null default 'applied',`  
-  `attendance_json jsonb,`  
-  `score numeric,`  
-  `remarks text,`  
-  `certificate_url text,`  
-  `created_at timestamptz default now(),`  
-  `updated_at timestamptz default now(),`  
-  `unique (class_id, user_id)`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `class_id uuid not null references training_classes(id) on delete cascade,`  
+ `user_id uuid not null references auth.users(id) on delete cascade,`  
+ `status enroll_status not null default 'applied',`  
+ `attendance_json jsonb,`  
+ `score numeric,`  
+ `remarks text,`  
+ `certificate_url text,`  
+ `created_at timestamptz default now(),`  
+ `updated_at timestamptz default now(),`  
+ `unique (class_id, user_id)`  
 `);`
 
 # Articles
@@ -1490,25 +1490,25 @@ Validasi **Zod**, jalankan di **Server Actions** (Next.js), akses DB via Supabas
 
 **Publik**
 
-* `/articles` (list \+ filter \+ pagination)
+- `/articles` (list \+ filter \+ pagination)
 
-* `/articles/[slug]` (detail)
+- `/articles/[slug]` (detail)
 
-* `/categories/[category]` (opsional)
+- `/categories/[category]` (opsional)
 
-* `/tags/[tag]` (opsional)
+- `/tags/[tag]` (opsional)
 
-* `/archive/[yyyy]/[mm]` (opsional)
+- `/archive/[yyyy]/[mm]` (opsional)
 
 **Admin**
 
-* `/dashboard/admin/articles` (list \+ bulk actions)
+- `/dashboard/admin/articles` (list \+ bulk actions)
 
-* `/dashboard/admin/articles/new` (editor)
+- `/dashboard/admin/articles/new` (editor)
 
-* `/dashboard/admin/articles/[id]` (edit)
+- `/dashboard/admin/articles/[id]` (edit)
 
-* `/dashboard/admin/articles/settings` (kategori, tag, featured config)
+- `/dashboard/admin/articles/settings` (kategori, tag, featured config)
 
 ---
 
@@ -1516,35 +1516,35 @@ Validasi **Zod**, jalankan di **Server Actions** (Next.js), akses DB via Supabas
 
 ### **A. Viewer**
 
-* **List & Filter**: by kategori, tag, bulan/tahun, pencarian judul/isi.
+- **List & Filter**: by kategori, tag, bulan/tahun, pencarian judul/isi.
 
-* **Detail**: judul, tanggal, penulis, waktu baca (read time), cover, isi (rich), kategori/tag.
+- **Detail**: judul, tanggal, penulis, waktu baca (read time), cover, isi (rich), kategori/tag.
 
-* **Navigasi**: artikel terkait (by kategori/tag), **featured** di landing.
+- **Navigasi**: artikel terkait (by kategori/tag), **featured** di landing.
 
-* **Share**: tombol share (WhatsApp, X/Twitter, LinkedIn).
+- **Share**: tombol share (WhatsApp, X/Twitter, LinkedIn).
 
-* **SEO**: meta tag, OpenGraph, structured data (BlogPosting).
+- **SEO**: meta tag, OpenGraph, structured data (BlogPosting).
 
 ### **B. Admin**
 
-* **CRUD Artikel**: draft → published → archived (soft delete).
+- **CRUD Artikel**: draft → published → archived (soft delete).
 
-* **Editor Rich Text**: headings, list, quote, link, gambar (upload ke Storage), embed video/iframe (opsional).
+- **Editor Rich Text**: headings, list, quote, link, gambar (upload ke Storage), embed video/iframe (opsional).
 
-* **SEO & Social**: custom meta title/description, OG image, canonical URL.
+- **SEO & Social**: custom meta title/description, OG image, canonical URL.
 
-* **Kategori & Tag**: master data \+ assign per artikel (banyak tag).
+- **Kategori & Tag**: master data \+ assign per artikel (banyak tag).
 
-* **Featured / Pin**: tandai artikel untuk muncul di hero/slider.
+- **Featured / Pin**: tandai artikel untuk muncul di hero/slider.
 
-* **Scheduling**: publish terjadwal (tanggal & waktu).
+- **Scheduling**: publish terjadwal (tanggal & waktu).
 
-* **Versioning (opsional)**: simpan revisi konten.
+- **Versioning (opsional)**: simpan revisi konten.
 
-* **Analytics ringkas**: views, CTR dari daftar (opsional, event tracking).
+- **Analytics ringkas**: views, CTR dari daftar (opsional, event tracking).
 
-* **Permissions (opsional)**: author vs editor vs admin; tapi minimal cukup admin.
+- **Permissions (opsional)**: author vs editor vs admin; tapi minimal cukup admin.
 
 ---
 
@@ -1552,61 +1552,61 @@ Validasi **Zod**, jalankan di **Server Actions** (Next.js), akses DB via Supabas
 
 **`articles`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `title` (text)
+- `title` (text)
 
-* `slug` (text unique, slugify dari title)
+- `slug` (text unique, slugify dari title)
 
-* `excerpt` (text, ringkasan untuk list)
+- `excerpt` (text, ringkasan untuk list)
 
-* `content` (text / json rich)
+- `content` (text / json rich)
 
-* `cover_url` (text, optional)
+- `cover_url` (text, optional)
 
-* `status` (enum: `draft` | `published` | `archived`)
+- `status` (enum: `draft` | `published` | `archived`)
 
-* `published_at` (timestamptz, nullable)
+- `published_at` (timestamptz, nullable)
 
-* `author_id` (uuid fk → auth.users)
+- `author_id` (uuid fk → auth.users)
 
-* `meta_title` (text, optional)
+- `meta_title` (text, optional)
 
-* `meta_description` (text, optional)
+- `meta_description` (text, optional)
 
-* `og_image_url` (text, optional)
+- `og_image_url` (text, optional)
 
-* `is_featured` (bool default false)
+- `is_featured` (bool default false)
 
-* `read_time_min` (int, opsional – auto hitung)
+- `read_time_min` (int, opsional – auto hitung)
 
-* `created_at`, `updated_at`
+- `created_at`, `updated_at`
 
 **`categories`**
 
-* `id` (uuid, pk), `name` (text unique), `slug` (unique), `created_at`
+- `id` (uuid, pk), `name` (text unique), `slug` (unique), `created_at`
 
 **`tags`**
 
-* `id` (uuid, pk), `name` (text unique), `slug` (unique), `created_at`
+- `id` (uuid, pk), `name` (text unique), `slug` (unique), `created_at`
 
 **Relasi many-to-many**
 
-* `article_categories` → `article_id`, `category_id`, unique pair
+- `article_categories` → `article_id`, `category_id`, unique pair
 
-* `article_tags` → `article_id`, `tag_id`, unique pair
+- `article_tags` → `article_id`, `tag_id`, unique pair
 
 **(Opsional) `article_revisions`**
 
-* `id`, `article_id`, `content_snapshot`, `updated_by`, `updated_at`
+- `id`, `article_id`, `content_snapshot`, `updated_by`, `updated_at`
 
 **Indeks yang disarankan**
 
-* `idx_articles_status_published_at`
+- `idx_articles_status_published_at`
 
-* `idx_articles_text` (title, excerpt) – pg\_trgm/tsvector untuk search
+- `idx_articles_text` (title, excerpt) – pg_trgm/tsvector untuk search
 
-* `idx_article_tags_article_id`, `idx_article_categories_article_id`
+- `idx_article_tags_article_id`, `idx_article_categories_article_id`
 
 ---
 
@@ -1614,43 +1614,43 @@ Validasi **Zod**, jalankan di **Server Actions** (Next.js), akses DB via Supabas
 
 **`articles`**
 
-* `select`:
+- `select`:
 
-  * Viewer (anon/auth): hanya `status='published' AND (published_at IS NULL OR published_at <= now())`
+  - Viewer (anon/auth): hanya `status='published' AND (published_at IS NULL OR published_at <= now())`
 
-  * Admin: semua
+  - Admin: semua
 
-* `insert/update/delete`:
+- `insert/update/delete`:
 
-  * Admin only (cek role di `profiles.role='admin'`)
+  - Admin only (cek role di `profiles.role='admin'`)
 
 **`categories` / `tags` / junction tables**
 
-* `select`: publik
+- `select`: publik
 
-* `insert/update/delete`: Admin only
+- `insert/update/delete`: Admin only
 
 **Catatan:** Untuk Admin check bisa via:
 
-* kolom `profiles.role='admin'`, atau
+- kolom `profiles.role='admin'`, atau
 
-* tabel `user_roles` (role-based), atau
+- tabel `user_roles` (role-based), atau
 
-* Supabase **Policies** dengan klaim JWT.
+- Supabase **Policies** dengan klaim JWT.
 
 ---
 
 # **6\) Validasi & Aturan Bisnis**
 
-* **Slug unik** (regenerate jika judul berubah, atau simpan `redirects` opsional).
+- **Slug unik** (regenerate jika judul berubah, atau simpan `redirects` opsional).
 
-* **Publish** hanya jika `title` dan `content` terisi.
+- **Publish** hanya jika `title` dan `content` terisi.
 
-* **Scheduled publish**: `status='draft'` \+ `published_at > now()` → worker/cron (Edge Function) akan flip ke `published` saat waktunya.
+- **Scheduled publish**: `status='draft'` \+ `published_at > now()` → worker/cron (Edge Function) akan flip ke `published` saat waktunya.
 
-* **Archive**: tidak tampil di publik, tapi bisa dipulihkan.
+- **Archive**: tidak tampil di publik, tapi bisa dipulihkan.
 
-* **Read time**: hitung otomatis (≈ 200–250 kata/menit) saat simpan/publish.
+- **Read time**: hitung otomatis (≈ 200–250 kata/menit) saat simpan/publish.
 
 ---
 
@@ -1679,39 +1679,39 @@ Validasi **Zod**; simpan gambar ke **Supabase Storage** (bucket `public-assets/a
 
 **Publik**
 
-* `ArticleCard` (cover, kategori, judul, excerpt, tanggal, read time)
+- `ArticleCard` (cover, kategori, judul, excerpt, tanggal, read time)
 
-* `ArticleList` \+ `FilterBar` (search, kategori, tag, bulan/tahun)
+- `ArticleList` \+ `FilterBar` (search, kategori, tag, bulan/tahun)
 
-* `ArticleDetail` (judul besar, meta penulis/tgl, TOC opsional, “Artikel Terkait”)
+- `ArticleDetail` (judul besar, meta penulis/tgl, TOC opsional, “Artikel Terkait”)
 
-* `FeaturedSlider` (jika ada `is_featured`)
+- `FeaturedSlider` (jika ada `is_featured`)
 
 **Admin**
 
-* `ArticlesTable` (judul, status, published\_at, featured, actions)
+- `ArticlesTable` (judul, status, published_at, featured, actions)
 
-* `ArticleEditor`:
+- `ArticleEditor`:
 
-  * Rich text editor (TipTap/MDX/Quill) \+ toolbar (H1–H3, bold, list, link, image, blockquote, code inline)
+  - Rich text editor (TipTap/MDX/Quill) \+ toolbar (H1–H3, bold, list, link, image, blockquote, code inline)
 
-  * Sidebar: status, kategori, tag, cover image, SEO (meta/OG), schedule
+  - Sidebar: status, kategori, tag, cover image, SEO (meta/OG), schedule
 
-  * Preview mode (markdown/HTML render)
+  - Preview mode (markdown/HTML render)
 
-* `CategoryTagManager` (CRUD kategori & tag)
+- `CategoryTagManager` (CRUD kategori & tag)
 
-* **Bulk actions**: publish/archive/feature/unfeature
+- **Bulk actions**: publish/archive/feature/unfeature
 
-* **Confirm Dialog** saat menghapus/arsip
+- **Confirm Dialog** saat menghapus/arsip
 
 **UX Notes**
 
-* Auto-save draft tiap 3–5 detik
+- Auto-save draft tiap 3–5 detik
 
-* Warn saat meninggalkan halaman jika ada perubahan belum tersimpan
+- Warn saat meninggalkan halaman jika ada perubahan belum tersimpan
 
-* Keyboard shortcuts: `Ctrl/Cmd + S` simpan draft
+- Keyboard shortcuts: `Ctrl/Cmd + S` simpan draft
 
 ---
 
@@ -1719,37 +1719,37 @@ Validasi **Zod**; simpan gambar ke **Supabase Storage** (bucket `public-assets/a
 
 **Trigger**
 
-* Publish artikel → ping ke sitemap & revalidate halaman (ISR)
+- Publish artikel → ping ke sitemap & revalidate halaman (ISR)
 
-* (Opsional) Kirim notifikasi email/newsletter ke subscriber
+- (Opsional) Kirim notifikasi email/newsletter ke subscriber
 
-* (Opsional) Auto-post ke sosial (via Zapier/IFTTT webhook)
+- (Opsional) Auto-post ke sosial (via Zapier/IFTTT webhook)
 
 **Teknis**
 
-* **Revalidate**: Next.js `revalidatePath('/articles')` & `revalidateTag('article:'+slug)`
+- **Revalidate**: Next.js `revalidatePath('/articles')` & `revalidateTag('article:'+slug)`
 
-* **Sitemap**: regenerasi dinamis (route handler) saat publish
+- **Sitemap**: regenerasi dinamis (route handler) saat publish
 
 ---
 
 # **10\) Acceptance Criteria (Checklist)**
 
-* Viewer dapat melihat daftar artikel, filter by kategori/tag/bulan, dan pencarian judul/isi
+- Viewer dapat melihat daftar artikel, filter by kategori/tag/bulan, dan pencarian judul/isi
 
-* Viewer dapat membuka detail artikel via slug; SEO meta & OG tampil benar
+- Viewer dapat membuka detail artikel via slug; SEO meta & OG tampil benar
 
-* Admin dapat membuat artikel **draft**, upload cover, set kategori/tag, dan **publish** (instan/terjadwal)
+- Admin dapat membuat artikel **draft**, upload cover, set kategori/tag, dan **publish** (instan/terjadwal)
 
-* Admin dapat **edit/arsip** artikel; artikel arsip tidak muncul di publik
+- Admin dapat **edit/arsip** artikel; artikel arsip tidak muncul di publik
 
-* Artikel **featured** muncul di komponen slider/hero konten
+- Artikel **featured** muncul di komponen slider/hero konten
 
-* Kebijakan RLS mencegah non-admin melakukan write
+- Kebijakan RLS mencegah non-admin melakukan write
 
-* ISR/revalidate memperbarui halaman list & detail setelah publish/edit
+- ISR/revalidate memperbarui halaman list & detail setelah publish/edit
 
-* (Opsional) Statistik view/CTR dasar tampil di dashboard admin
+- (Opsional) Statistik view/CTR dasar tampil di dashboard admin
 
 ---
 
@@ -1758,48 +1758,48 @@ Validasi **Zod**; simpan gambar ke **Supabase Storage** (bucket `public-assets/a
 `create type article_status as enum ('draft','published','archived');`
 
 `create table articles (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `title text not null,`  
-  `slug text unique not null,`  
-  `excerpt text,`  
-  `content text not null,`  
-  `cover_url text,`  
-  `status article_status not null default 'draft',`  
-  `published_at timestamptz,`  
-  `author_id uuid not null references auth.users(id),`  
-  `meta_title text,`  
-  `meta_description text,`  
-  `og_image_url text,`  
-  `is_featured boolean not null default false,`  
-  `read_time_min int,`  
-  `created_at timestamptz default now(),`  
-  `updated_at timestamptz default now()`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `title text not null,`  
+ `slug text unique not null,`  
+ `excerpt text,`  
+ `content text not null,`  
+ `cover_url text,`  
+ `status article_status not null default 'draft',`  
+ `published_at timestamptz,`  
+ `author_id uuid not null references auth.users(id),`  
+ `meta_title text,`  
+ `meta_description text,`  
+ `og_image_url text,`  
+ `is_featured boolean not null default false,`  
+ `read_time_min int,`  
+ `created_at timestamptz default now(),`  
+ `updated_at timestamptz default now()`  
 `);`
 
 `create table categories (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `name text unique not null,`  
-  `slug text unique not null,`  
-  `created_at timestamptz default now()`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `name text unique not null,`  
+ `slug text unique not null,`  
+ `created_at timestamptz default now()`  
 `);`
 
 `create table tags (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `name text unique not null,`  
-  `slug text unique not null,`  
-  `created_at timestamptz default now()`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `name text unique not null,`  
+ `slug text unique not null,`  
+ `created_at timestamptz default now()`  
 `);`
 
 `create table article_categories (`  
-  `article_id uuid references articles(id) on delete cascade,`  
-  `category_id uuid references categories(id) on delete cascade,`  
-  `primary key (article_id, category_id)`  
+ `article_id uuid references articles(id) on delete cascade,`  
+ `category_id uuid references categories(id) on delete cascade,`  
+ `primary key (article_id, category_id)`  
 `);`
 
 `create table article_tags (`  
-  `article_id uuid references articles(id) on delete cascade,`  
-  `tag_id uuid references tags(id) on delete cascade,`  
-  `primary key (article_id, tag_id)`  
+ `article_id uuid references articles(id) on delete cascade,`  
+ `tag_id uuid references tags(id) on delete cascade,`  
+ `primary key (article_id, tag_id)`  
 `);`
 
 # Dashboard
@@ -1812,23 +1812,23 @@ Validasi **Zod**; simpan gambar ke **Supabase Storage** (bucket `public-assets/a
 
 2. Lihat ringkasan indikator utama (KPI) tenaga kerja:
 
-   * Jumlah lowongan aktif
+   - Jumlah lowongan aktif
 
-   * Jumlah pelamar & yang berhasil diterima
+   - Jumlah pelamar & yang berhasil diterima
 
-   * Jumlah program pelatihan & peserta aktif
+   - Jumlah program pelatihan & peserta aktif
 
-   * Jumlah sertifikat diterbitkan
+   - Jumlah sertifikat diterbitkan
 
 3. Gunakan filter berdasarkan:
 
-   * Periode waktu (mingguan, bulanan, tahunan)
+   - Periode waktu (mingguan, bulanan, tahunan)
 
-   * Lembaga/instansi (LPK/BLK)
+   - Lembaga/instansi (LPK/BLK)
 
-   * Jenis program (Pelatihan / Penyaluran kerja)
+   - Jenis program (Pelatihan / Penyaluran kerja)
 
-   * Lokasi (Kabupaten/Kota, Provinsi)
+   - Lokasi (Kabupaten/Kota, Provinsi)
 
 4. Klik salah satu metrik → drill down ke data detail (tabel/laporan)
 
@@ -1840,13 +1840,13 @@ Validasi **Zod**; simpan gambar ke **Supabase Storage** (bucket `public-assets/a
 
 2. Lihat KPI lembaganya sendiri:
 
-   * Jumlah program aktif
+   - Jumlah program aktif
 
-   * Jumlah peserta terdaftar
+   - Jumlah peserta terdaftar
 
-   * Completion rate pelatihan
+   - Completion rate pelatihan
 
-   * Sertifikat diterbitkan
+   - Sertifikat diterbitkan
 
 3. Bisa menelusuri detail kelas dan peserta di bawah lembaganya.
 
@@ -1856,275 +1856,271 @@ Validasi **Zod**; simpan gambar ke **Supabase Storage** (bucket `public-assets/a
 
 2. Lihat KPI rekrutmen:
 
-   * Jumlah lowongan aktif
+   - Jumlah lowongan aktif
 
-   * Jumlah pelamar masuk
+   - Jumlah pelamar masuk
 
-   * Hiring rate (persentase yang diterima)
+   - Hiring rate (persentase yang diterima)
 
-   * Rata-rata waktu rekrutmen
+   - Rata-rata waktu rekrutmen
 
-   ---
+   ***
 
    ## **2\) Struktur Halaman (Next.js App Router)**
 
-* `/dashboard/admin` → Dashboard KPI utama
+- `/dashboard/admin` → Dashboard KPI utama
 
-* `/dashboard/institution` → KPI lembaga
+- `/dashboard/institution` → KPI lembaga
 
-* `/dashboard/employer` → KPI rekrutmen
+- `/dashboard/employer` → KPI rekrutmen
 
-* `/dashboard/admin/reports` → halaman laporan detail
+- `/dashboard/admin/reports` → halaman laporan detail
 
-* `/api/kpi/*` → endpoint untuk data agregasi
+- `/api/kpi/*` → endpoint untuk data agregasi
 
-  ---
+  ***
 
   ## **3\) Fitur & Aturan per Peran**
 
   ### **A. Admin**
 
-* Melihat **semua data lintas lembaga dan employer**
+- Melihat **semua data lintas lembaga dan employer**
 
-* Filter berdasarkan:
+- Filter berdasarkan:
 
-  * Periode waktu (date range)
+  - Periode waktu (date range)
 
-  * Lembaga/organisasi
+  - Lembaga/organisasi
 
-  * Lokasi geografis
+  - Lokasi geografis
 
-  * Jenis kegiatan (pelatihan / rekrutmen)
+  - Jenis kegiatan (pelatihan / rekrutmen)
 
-* Menampilkan metrik utama:
+- Menampilkan metrik utama:
 
-  * Lowongan aktif
+  - Lowongan aktif
 
-  * Jumlah pelamar
+  - Jumlah pelamar
 
-  * Hiring rate
+  - Hiring rate
 
-  * Program pelatihan aktif
+  - Program pelatihan aktif
 
-  * Peserta pelatihan
+  - Peserta pelatihan
 
-  * Sertifikat diterbitkan
+  - Sertifikat diterbitkan
 
-* Menampilkan grafik:
+- Menampilkan grafik:
 
-  * Funnel Rekrutmen (Submitted → Screening → Interview → Hired)
+  - Funnel Rekrutmen (Submitted → Screening → Interview → Hired)
 
-  * Funnel Pelatihan (Applied → Confirmed → In Progress → Completed)
+  - Funnel Pelatihan (Applied → Confirmed → In Progress → Completed)
 
-  * Time Series tren pelamar dan peserta
+  - Time Series tren pelamar dan peserta
 
-  * Completion rate per lembaga
+  - Completion rate per lembaga
 
-  ---
+  ***
 
   ### **B. Institution (LPK/BLK)**
 
-* KPI internal:
+- KPI internal:
 
-  * Total program pelatihan aktif
+  - Total program pelatihan aktif
 
-  * Total peserta mendaftar
+  - Total peserta mendaftar
 
-  * Completion rate & jumlah sertifikat
+  - Completion rate & jumlah sertifikat
 
-  * Jumlah kelas berjalan
+  - Jumlah kelas berjalan
 
-* Filter by periode (30/90/180 hari)
+- Filter by periode (30/90/180 hari)
 
-* Bisa ekspor laporan pelatihannya sendiri
+- Bisa ekspor laporan pelatihannya sendiri
 
-  ---
+  ***
 
   ### **C. Employer**
 
-* KPI rekrutmen:
+- KPI rekrutmen:
 
-  * Jumlah lowongan aktif
+  - Jumlah lowongan aktif
 
-  * Jumlah pelamar per posisi
+  - Jumlah pelamar per posisi
 
-  * Jumlah diterima (status hired)
+  - Jumlah diterima (status hired)
 
-  * Hiring rate (% diterima)
+  - Hiring rate (% diterima)
 
-  * Average time-to-hire
+  - Average time-to-hire
 
-  ---
+  ***
 
   ## **4\) Model Data (Supabase – Ringkas)**
 
 KPI akan diambil dari agregasi beberapa tabel utama:
 
-| Tabel | Sumber Data | Digunakan Untuk |
-| ----- | ----- | ----- |
-| `jobs` | Lowongan | Total lowongan aktif |
-| `applications` | Lamaran kerja | Jumlah pelamar, hired rate |
-| `training_programs` | Pelatihan | Jumlah program aktif |
-| `enrollments` | Pendaftaran pelatihan | Jumlah peserta, completion rate |
-| `certificates` | Sertifikat | Jumlah sertifikat terbit |
+| Tabel               | Sumber Data           | Digunakan Untuk                 |
+| ------------------- | --------------------- | ------------------------------- |
+| `jobs`              | Lowongan              | Total lowongan aktif            |
+| `applications`      | Lamaran kerja         | Jumlah pelamar, hired rate      |
+| `training_programs` | Pelatihan             | Jumlah program aktif            |
+| `enrollments`       | Pendaftaran pelatihan | Jumlah peserta, completion rate |
+| `certificates`      | Sertifikat            | Jumlah sertifikat terbit        |
 
 ### **🔹 View / Materialized View yang Dibutuhkan**
 
 #### **`v_kpi_jobs`**
 
-* `select`  
-*   `count(*) filter (where status = 'published') as active_jobs,`  
-*   `count(*) filter (where status = 'closed') as closed_jobs,`  
-*   `date_trunc('month', created_at) as period`  
-* `from jobs`  
-* `group by period;`
-
+- `select`
+- `count(*) filter (where status = 'published') as active_jobs,`
+- `count(*) filter (where status = 'closed') as closed_jobs,`
+- `date_trunc('month', created_at) as period`
+- `from jobs`
+- `group by period;`
 
   #### **`v_kpi_applications`**
 
-* `select`  
-*   `date_trunc('month', created_at) as period,`  
-*   `count(*) as total_applications,`  
-*   `count(*) filter (where status = 'hired') as hired,`  
-*   `round(`  
-*     `count(*) filter (where status = 'hired')::numeric / nullif(count(*),0) * 100, 1`  
-*   `) as hiring_rate`  
-* `from applications`  
-* `group by period;`
-
+- `select`
+- `date_trunc('month', created_at) as period,`
+- `count(*) as total_applications,`
+- `count(*) filter (where status = 'hired') as hired,`
+- `round(`
+-     `count(*) filter (where status = 'hired')::numeric / nullif(count(*),0) * 100, 1`
+- `) as hiring_rate`
+- `from applications`
+- `group by period;`
 
   #### **`v_kpi_trainings`**
 
-* `select`  
-*   `count(distinct tp.id) filter (where tp.status='published') as active_programs,`  
-*   `count(distinct e.user_id) as participants,`  
-*   `count(*) filter (where e.status='completed') as completed,`  
-*   `round(`  
-*     `count(*) filter (where e.status='completed')::numeric /`  
-*     `nullif(count(*) filter (where e.status in ('confirmed','in_progress','completed')),0) * 100, 1`  
-*   `) as completion_rate`  
-* `from training_programs tp`  
-* `join training_classes tc on tc.program_id = tp.id`  
-* `join enrollments e on e.class_id = tc.id`  
-* `group by tp.provider_id;`
-
+- `select`
+- `count(distinct tp.id) filter (where tp.status='published') as active_programs,`
+- `count(distinct e.user_id) as participants,`
+- `count(*) filter (where e.status='completed') as completed,`
+- `round(`
+-     `count(*) filter (where e.status='completed')::numeric /`
+-     `nullif(count(*) filter (where e.status in ('confirmed','in_progress','completed')),0) * 100, 1`
+- `) as completion_rate`
+- `from training_programs tp`
+- `join training_classes tc on tc.program_id = tp.id`
+- `join enrollments e on e.class_id = tc.id`
+- `group by tp.provider_id;`
 
   #### **`v_kpi_certificates`**
 
-* `select`  
-*   `date_trunc('month', issued_at) as period,`  
-*   `count(*) as total_certificates`  
-* `from certificates`  
-* `group by period;`  
-    
-  ---
+- `select`
+- `date_trunc('month', issued_at) as period,`
+- `count(*) as total_certificates`
+- `from certificates`
+- `group by period;`
+
+  ***
 
   ## **5\) RLS (Row Level Security) – Garis Besar**
 
-| Role | Akses Data KPI |
-| ----- | ----- |
-| **Admin** | Semua lembaga & perusahaan |
+| Role                      | Akses Data KPI                                                              |
+| ------------------------- | --------------------------------------------------------------------------- |
+| **Admin**                 | Semua lembaga & perusahaan                                                  |
 | **Institution (LPK/BLK)** | Data `training_programs` dan `enrollments` milik `provider_id = auth.uid()` |
-| **Employer** | Data `jobs` dan `applications` milik `created_by = auth.uid()` |
+| **Employer**              | Data `jobs` dan `applications` milik `created_by = auth.uid()`              |
 
 **Implementasi di Supabase View:**  
  Gunakan fungsi `auth.uid()` untuk memfilter data sesuai role aktif pengguna, contoh:
 
-* `create or replace view v_kpi_institution as`  
-* `select * from v_kpi_trainings where provider_id = auth.uid();`  
-    
-  ---
+- `create or replace view v_kpi_institution as`
+- `select * from v_kpi_trainings where provider_id = auth.uid();`
+
+  ***
 
   ## **6\) Validasi & Aturan Bisnis**
 
-* **Data Real-Time**:
+- **Data Real-Time**:
 
-  * Gunakan data langsung dari tabel untuk angka hari ini.
+  - Gunakan data langsung dari tabel untuk angka hari ini.
 
-* **Data Historis / Agregat**:
+- **Data Historis / Agregat**:
 
-  * Gunakan materialized view yang diperbarui otomatis setiap hari (melalui cron job Supabase).
+  - Gunakan materialized view yang diperbarui otomatis setiap hari (melalui cron job Supabase).
 
-* **Rasio dan persentase** harus dibulatkan ke 1 desimal.
+- **Rasio dan persentase** harus dibulatkan ke 1 desimal.
 
-* **Grafik tren** (mingguan/bulanan) tidak boleh kosong meski tidak ada data (zero-fill).
+- **Grafik tren** (mingguan/bulanan) tidak boleh kosong meski tidak ada data (zero-fill).
 
-  ---
+  ***
 
   ## **7\) Server Actions / API (Contoh)**
 
-* `// Get KPI summary`  
-* `getKpiSummary({ startDate, endDate, orgId? })`  
-*   
-* `// Get recruitment funnel`  
-* `getRecruitmentFunnel({ startDate, endDate, orgId? })`  
-*   
-* `// Get training funnel`  
-* `getTrainingFunnel({ startDate, endDate, providerId? })`  
-*   
-* `// Get top employers / top programs`  
-* `getTopEmployers()`  
-* `getTopPrograms()`  
-*   
-* `// Export CSV`  
-* `exportKpiReport({ type, startDate, endDate, orgId? })`  
-    
-  ---
+- `// Get KPI summary`
+- `getKpiSummary({ startDate, endDate, orgId? })`
+-
+- `// Get recruitment funnel`
+- `getRecruitmentFunnel({ startDate, endDate, orgId? })`
+-
+- `// Get training funnel`
+- `getTrainingFunnel({ startDate, endDate, providerId? })`
+-
+- `// Get top employers / top programs`
+- `getTopEmployers()`
+- `getTopPrograms()`
+-
+- `// Export CSV`
+- `exportKpiReport({ type, startDate, endDate, orgId? })`
+
+  ***
 
   ## **8\) UI/UX – Komponen Inti**
 
   ### **🔹 Komponen**
 
-* `KpiStatCard`: angka besar \+ delta (%)
+- `KpiStatCard`: angka besar \+ delta (%)
 
-* `FunnelChart`: visualisasi progres (Rekrutmen/Pelatihan)
+- `FunnelChart`: visualisasi progres (Rekrutmen/Pelatihan)
 
-* `TimeSeriesChart`: tren pelamar & peserta (mingguan/bulanan)
+- `TimeSeriesChart`: tren pelamar & peserta (mingguan/bulanan)
 
-* `CompletionRateBar`: tingkat kelulusan per lembaga
+- `CompletionRateBar`: tingkat kelulusan per lembaga
 
-* `TopListTable`: daftar lembaga/perusahaan terbaik
+- `TopListTable`: daftar lembaga/perusahaan terbaik
 
-* `FilterBar`: date range \+ dropdown lembaga/lokasi
+- `FilterBar`: date range \+ dropdown lembaga/lokasi
 
   ### **🔹 UX & Interaksi**
 
-* Filter global mempengaruhi seluruh komponen.
+- Filter global mempengaruhi seluruh komponen.
 
-* Klik kartu KPI → membuka grafik atau tabel rinci.
+- Klik kartu KPI → membuka grafik atau tabel rinci.
 
-* Export PDF/CSV di setiap bagian.
+- Export PDF/CSV di setiap bagian.
 
-* Skeleton loading & animasi (pakai Framer Motion).
+- Skeleton loading & animasi (pakai Framer Motion).
 
-  ---
+  ***
 
   ## **9\) Notifikasi & Integrasi**
 
-* **Email / PDF laporan bulanan otomatis** ke admin lembaga (opsional).
+- **Email / PDF laporan bulanan otomatis** ke admin lembaga (opsional).
 
-* **Webhook / API Integrasi** ke dashboard eksternal (mis. Dinas Tenaga Kerja Provinsi).
+- **Webhook / API Integrasi** ke dashboard eksternal (mis. Dinas Tenaga Kerja Provinsi).
 
-  ---
+  ***
 
   ## **10\) Acceptance Criteria (Checklist)**
 
-* Admin dapat melihat KPI global lintas lembaga & perusahaan.
+- Admin dapat melihat KPI global lintas lembaga & perusahaan.
 
-* LPK/BLK hanya melihat KPI pelatihannya sendiri.
+- LPK/BLK hanya melihat KPI pelatihannya sendiri.
 
-* Employer hanya melihat KPI rekrutmennya sendiri.
+- Employer hanya melihat KPI rekrutmennya sendiri.
 
-* Semua angka KPI akurat sesuai definisi.
+- Semua angka KPI akurat sesuai definisi.
 
-* Grafik funnel & time series menampilkan tren sesuai periode.
+- Grafik funnel & time series menampilkan tren sesuai periode.
 
-* Export laporan bekerja dan hasil valid.
+- Export laporan bekerja dan hasil valid.
 
-* RLS memastikan data tiap lembaga/instansi aman.
+- RLS memastikan data tiap lembaga/instansi aman.
 
-* Dashboard responsif dan ringan diakses.
-
+- Dashboard responsif dan ringan diakses.
 
 # User Management
 
@@ -2142,7 +2138,7 @@ KPI akan diambil dari agregasi beberapa tabel utama:
 
 1. Landing → Join → pilih **Institution** → Register/Login
 
-2. Onboarding profil lembaga → status awal: **pending\_approval**
+2. Onboarding profil lembaga → status awal: **pending_approval**
 
 3. Admin review → **approved** → akses Dashboard Institution (manage trainings, kelas, peserta)
 
@@ -2152,7 +2148,7 @@ KPI akan diambil dari agregasi beberapa tabel utama:
 
 1. Landing → Join → pilih **Employer** → Register/Login
 
-2. Onboarding profil perusahaan → **pending\_approval**
+2. Onboarding profil perusahaan → **pending_approval**
 
 3. Admin review → **approved** → akses Dashboard Employer (post job, review pelamar)
 
@@ -2172,15 +2168,15 @@ KPI akan diambil dari agregasi beberapa tabel utama:
 
 # **🧱 2\) Struktur Halaman (Next.js App Router)**
 
-* `/dashboard/admin/approvals` – antrean approval global
+- `/dashboard/admin/approvals` – antrean approval global
 
-* `/dashboard/admin/approvals/[id]` – detail permohonan \+ dokumen \+ aksi
+- `/dashboard/admin/approvals/[id]` – detail permohonan \+ dokumen \+ aksi
 
-* `/dashboard/admin/roles` – manajemen role & akses (opsional)
+- `/dashboard/admin/roles` – manajemen role & akses (opsional)
 
-* `/pending-approval` – halaman penjelasan untuk user yang menunggu verifikasi
+- `/pending-approval` – halaman penjelasan untuk user yang menunggu verifikasi
 
-* `/settings/access-policy` – (opsional) matriks akses & toggle kebijakan
+- `/settings/access-policy` – (opsional) matriks akses & toggle kebijakan
 
 ---
 
@@ -2188,39 +2184,39 @@ KPI akan diambil dari agregasi beberapa tabel utama:
 
 ### **A. Admin**
 
-* **Approval Queue**:
+- **Approval Queue**:
 
-  * **Akun**: Institution, Employer
+  - **Akun**: Institution, Employer
 
-  * **Konten sensitif (opsional)**: Job dari employer baru, Program pelatihan dari institution baru
+  - **Konten sensitif (opsional)**: Job dari employer baru, Program pelatihan dari institution baru
 
-* **Aksi**: Approve, Reject (dengan alasan), Request Changes (kembalikan ke draft)
+- **Aksi**: Approve, Reject (dengan alasan), Request Changes (kembalikan ke draft)
 
-* **Role Management**: set/unset `admin`, **suspend** user, **lock** organisasi
+- **Role Management**: set/unset `admin`, **suspend** user, **lock** organisasi
 
-* **View-as (opsional)**: melihat tampilan sebagai role tertentu (read-only)
+- **View-as (opsional)**: melihat tampilan sebagai role tertentu (read-only)
 
-* **Audit & Log**: semua keputusan terekam (siapa, kapan, alasan)
+- **Audit & Log**: semua keputusan terekam (siapa, kapan, alasan)
 
 ### **B. Institution**
 
-* Submit/Update profil lembaga hingga lengkap → kirim untuk verifikasi
+- Submit/Update profil lembaga hingga lengkap → kirim untuk verifikasi
 
-* Melihat status permohonan \+ history catatan
+- Melihat status permohonan \+ history catatan
 
-* Setelah approved: CRUD programs/kelas; konten baru bisa auto-publish atau **pending** tergantung kebijakan
+- Setelah approved: CRUD programs/kelas; konten baru bisa auto-publish atau **pending** tergantung kebijakan
 
 ### **C. Employer**
 
-* Submit/Update profil perusahaan → kirim untuk verifikasi
+- Submit/Update profil perusahaan → kirim untuk verifikasi
 
-* Setelah approved: CRUD lowongan (auto-publish atau **pending** tergantung kebijakan)
+- Setelah approved: CRUD lowongan (auto-publish atau **pending** tergantung kebijakan)
 
 ### **D. Candidate**
 
-* Tidak perlu approval (langsung aktif)
+- Tidak perlu approval (langsung aktif)
 
-* Dibatasi pada aksi kandidat (apply/enroll/kelola profil)
+- Dibatasi pada aksi kandidat (apply/enroll/kelola profil)
 
 ---
 
@@ -2230,23 +2226,23 @@ KPI akan diambil dari agregasi beberapa tabel utama:
 
 **`profiles`**
 
-* `id` (uuid, pk \= auth.uid)
+- `id` (uuid, pk \= auth.uid)
 
-* `role` (`candidate` | `institution` | `employer` | `admin`) // peran aktif saat ini
+- `role` (`candidate` | `institution` | `employer` | `admin`) // peran aktif saat ini
 
-* `onboarding_completed` (bool)
+- `onboarding_completed` (bool)
 
-* `suspended` (bool default false)
+- `suspended` (bool default false)
 
-**`user_roles`** *(opsional untuk multi-role)*
+**`user_roles`** _(opsional untuk multi-role)_
 
-* `user_id` (uuid)
+- `user_id` (uuid)
 
-* `role` (text)
+- `role` (text)
 
-* `status` (`pending_approval` | `approved` | `rejected`)
+- `status` (`pending_approval` | `approved` | `rejected`)
 
-* unique (`user_id`, `role`)
+- unique (`user_id`, `role`)
 
 Jika tidak butuh multi-role, cukup pakai `profiles.role` \+ tabel entitas `institutions`/`employers` bertanda status.
 
@@ -2254,51 +2250,51 @@ Jika tidak butuh multi-role, cukup pakai `profiles.role` \+ tabel entitas `insti
 
 **`institutions`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `user_id` (owner)
+- `user_id` (owner)
 
-* `name`, `type` (`blk_pemerintah`/`blk_pesantren`/`lpk`), `address`, `city`, `province`, `email`, `phone`
+- `name`, `type` (`blk_pemerintah`/`blk_pesantren`/`lpk`), `address`, `city`, `province`, `email`, `phone`
 
-* `capacity_month`, `facilities[]`, `specialties[]`
+- `capacity_month`, `facilities[]`, `specialties[]`
 
-* `status` (`pending_approval` | `approved` | `rejected` | `suspended`)
+- `status` (`pending_approval` | `approved` | `rejected` | `suspended`)
 
-* `review_notes` (text)
+- `review_notes` (text)
 
 **`employers`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `user_id` (owner)
+- `user_id` (owner)
 
-* `company_name`, `industry`, `address`, `city`, `province`, `website`, `pic_*`
+- `company_name`, `industry`, `address`, `city`, `province`, `website`, `pic_*`
 
-* `status` (sama seperti institutions)
+- `status` (sama seperti institutions)
 
-* `review_notes` (text)
+- `review_notes` (text)
 
 ### **4.3 Log Persetujuan**
 
 **`approvals`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `entity_type` (`institution` | `employer` | `job` | `training_program`)
+- `entity_type` (`institution` | `employer` | `job` | `training_program`)
 
-* `entity_id` (uuid)
+- `entity_id` (uuid)
 
-* `action` (`submitted` | `approved` | `rejected` | `request_changes`)
+- `action` (`submitted` | `approved` | `rejected` | `request_changes`)
 
-* `reason` (text, nullable)
+- `reason` (text, nullable)
 
-* `acted_by` (uuid → admin)
+- `acted_by` (uuid → admin)
 
-* `created_at` (timestamptz)
+- `created_at` (timestamptz)
 
-**`activity_logs`** *(opsional lebih generik)*
+**`activity_logs`** _(opsional lebih generik)_
 
-* `id`, `actor_id`, `action`, `target_type`, `target_id`, `meta`, `created_at`
+- `id`, `actor_id`, `action`, `target_type`, `target_id`, `meta`, `created_at`
 
 ---
 
@@ -2306,35 +2302,35 @@ Jika tidak butuh multi-role, cukup pakai `profiles.role` \+ tabel entitas `insti
 
 **`profiles`**
 
-* `select/update`: owner (auth.uid \= id)
+- `select/update`: owner (auth.uid \= id)
 
-* admin: full
+- admin: full
 
 **`institutions` / `employers`**
 
-* `select`:
+- `select`:
 
-  * publik: field aman (profil ringkas) jika `status = 'approved'`
+  - publik: field aman (profil ringkas) jika `status = 'approved'`
 
-  * owner \+ admin: full
+  - owner \+ admin: full
 
-* `insert`: owner only (user role must be institution/employer intent)
+- `insert`: owner only (user role must be institution/employer intent)
 
-* `update`:
+- `update`:
 
-  * owner: hanya jika `status != 'approved'` **atau** area edit terbatas (alamat/contacts)
+  - owner: hanya jika `status != 'approved'` **atau** area edit terbatas (alamat/contacts)
 
-  * admin: full
+  - admin: full
 
-* `delete`: admin only (umumnya soft-delete via `status='suspended'`)
+- `delete`: admin only (umumnya soft-delete via `status='suspended'`)
 
 **`approvals`**
 
-* `select`: admin only
+- `select`: admin only
 
-* `insert`: sistem/admin ketika ada aksi
+- `insert`: sistem/admin ketika ada aksi
 
-* `update/delete`: admin only
+- `update/delete`: admin only
 
 Kebijakan tambahan: **gate** akses menu sesuai `profiles.role`, dan **redirect** user berstatus `pending_approval` ke `/pending-approval`.
 
@@ -2342,37 +2338,37 @@ Kebijakan tambahan: **gate** akses menu sesuai `profiles.role`, dan **redirect**
 
 # **🧪 6\) Validasi & Aturan Bisnis**
 
-* **Institution/Employer**:
+- **Institution/Employer**:
 
-  * Wajib isi field minimal (nama, alamat, kota, PIC) sebelum submit
+  - Wajib isi field minimal (nama, alamat, kota, PIC) sebelum submit
 
-  * Saat submit: set `status='pending_approval'` \+ entry di `approvals (submitted)`
+  - Saat submit: set `status='pending_approval'` \+ entry di `approvals (submitted)`
 
-* **Admin Approve**:
+- **Admin Approve**:
 
-  * Cek kelengkapan dokumen
+  - Cek kelengkapan dokumen
 
-  * Set `status='approved'` \+ catat `approvals (approved)`
+  - Set `status='approved'` \+ catat `approvals (approved)`
 
-  * Kirim notifikasi ke owner
+  - Kirim notifikasi ke owner
 
-* **Admin Reject**:
+- **Admin Reject**:
 
-  * Wajib isi **reason**
+  - Wajib isi **reason**
 
-  * Set `status='rejected'` \+ `approvals (rejected)`
+  - Set `status='rejected'` \+ `approvals (rejected)`
 
-  * Owner dapat **resubmit** setelah revisi
+  - Owner dapat **resubmit** setelah revisi
 
-* **Suspend**:
+- **Suspend**:
 
-  * Admin bisa **suspend** institution/employer jika ada pelanggaran (hide dari publik, blok CRUD)
+  - Admin bisa **suspend** institution/employer jika ada pelanggaran (hide dari publik, blok CRUD)
 
-* **Kebijakan Postingan** (opsional by setting):
+- **Kebijakan Postingan** (opsional by setting):
 
-  * Employer baru: job pertama **pending** hingga diverifikasi
+  - Employer baru: job pertama **pending** hingga diverifikasi
 
-  * Institution baru: program pertama **pending** hingga diverifikasi
+  - Institution baru: program pertama **pending** hingga diverifikasi
 
 ---
 
@@ -2405,30 +2401,30 @@ Gunakan **Zod** untuk validasi payload, simpan semua aksi ke `approvals`/`activi
 
 # **🧩 8\) UI/UX – Komponen Inti**
 
-* **ApprovalsTable** (Admin):  
+- **ApprovalsTable** (Admin):  
    kolom: Tanggal, Entitas, Nama, Status, Aktor, Aksi (Approve/Reject/Request Changes)
 
-* **ApprovalDetailDrawer**:  
+- **ApprovalDetailDrawer**:  
    menampilkan data lengkap \+ dokumen pendukung \+ form alasan
 
-* **RoleBadge**: menandai role aktif (Admin/Institution/Employer/Candidate)
+- **RoleBadge**: menandai role aktif (Admin/Institution/Employer/Candidate)
 
-* **PendingApprovalPage**:  
+- **PendingApprovalPage**:  
    status & instruksi apa yang harus dilengkapi; tombol **Resubmit**
 
-* **AccessGuard** (HOC/middleware):  
+- **AccessGuard** (HOC/middleware):  
    redirect user sesuai role & status
 
-* **AuditTrail** (opsional):  
+- **AuditTrail** (opsional):  
    timeline aksi persetujuan
 
 **UX Notes**
 
-* Beri **konfirmasi modal** saat Approve/Reject (wajib isi alasan saat reject).
+- Beri **konfirmasi modal** saat Approve/Reject (wajib isi alasan saat reject).
 
-* **Toast** sukses/gagal; tampilkan **highlight** field yang belum lengkap saat Request Changes.
+- **Toast** sukses/gagal; tampilkan **highlight** field yang belum lengkap saat Request Changes.
 
-* Aksi **bulk approve** bisa ditambahkan jika volume tinggi (opsional).
+- Aksi **bulk approve** bisa ditambahkan jika volume tinggi (opsional).
 
 ---
 
@@ -2436,45 +2432,45 @@ Gunakan **Zod** untuk validasi payload, simpan semua aksi ke `approvals`/`activi
 
 **Trigger**
 
-* Submit profil (Institution/Employer) → notifikasi ke Admin (email)
+- Submit profil (Institution/Employer) → notifikasi ke Admin (email)
 
-* Approved/Rejected/Request Changes → notifikasi ke pemilik akun \+ catatan
+- Approved/Rejected/Request Changes → notifikasi ke pemilik akun \+ catatan
 
 **Channel**
 
-* Email (Resend/SendGrid).
+- Email (Resend/SendGrid).
 
-* WhatsApp (opsional) untuk mempercepat follow-up.
+- WhatsApp (opsional) untuk mempercepat follow-up.
 
 **Template (contoh subject)**
 
-* `[P2TK] Pengajuan Lembaga Disetujui`
+- `[P2TK] Pengajuan Lembaga Disetujui`
 
-* `[P2TK] Pengajuan Lembaga Dikembalikan – Mohon Revisi`
+- `[P2TK] Pengajuan Lembaga Dikembalikan – Mohon Revisi`
 
-* `[P2TK] Pengajuan Perusahaan Ditolak – Alasan Terlampir`
+- `[P2TK] Pengajuan Perusahaan Ditolak – Alasan Terlampir`
 
 ---
 
 # **✅ 10\) Acceptance Criteria (Checklist)**
 
-* Institution/Employer yang submit profil berubah ke `pending_approval` dan muncul di antrean admin
+- Institution/Employer yang submit profil berubah ke `pending_approval` dan muncul di antrean admin
 
-* Admin dapat **approve/reject/request changes** dengan catatan/ alasan
+- Admin dapat **approve/reject/request changes** dengan catatan/ alasan
 
-* Status & catatan terlihat oleh pemilik; user **rejected** bisa **resubmit**
+- Status & catatan terlihat oleh pemilik; user **rejected** bisa **resubmit**
 
-* Role guard memastikan hanya **approved** yang bisa CRUD (jobs/trainings)
+- Role guard memastikan hanya **approved** yang bisa CRUD (jobs/trainings)
 
-* Candidate tidak memerlukan approval dan aksesnya terbatas
+- Candidate tidak memerlukan approval dan aksesnya terbatas
 
-* Semua aksi persetujuan tercatat di `approvals` \+ timestamp \+ acted\_by
+- Semua aksi persetujuan tercatat di `approvals` \+ timestamp \+ acted_by
 
-* Notifikasi terkirim pada setiap perubahan status
+- Notifikasi terkirim pada setiap perubahan status
 
-* RLS & guard mencegah akses lintas entitas yang tidak berhak
+- RLS & guard mencegah akses lintas entitas yang tidak berhak
 
-* (Opsional) Admin bisa **suspend** akun organisasi & blokir akses
+- (Opsional) Admin bisa **suspend** akun organisasi & blokir akses
 
 ---
 
@@ -2484,22 +2480,22 @@ Gunakan **Zod** untuk validasi payload, simpan semua aksi ke `approvals`/`activi
 `create type approval_action as enum ('submitted','approved','rejected','request_changes');`
 
 `create table approvals (`  
-  `id uuid primary key default gen_random_uuid(),`  
-  `entity_type entity_type not null,`  
-  `entity_id uuid not null,`  
-  `action approval_action not null,`  
-  `reason text,`  
-  `acted_by uuid references auth.users(id),`  
-  `created_at timestamptz default now()`  
+ `id uuid primary key default gen_random_uuid(),`  
+ `entity_type entity_type not null,`  
+ `entity_id uuid not null,`  
+ `action approval_action not null,`  
+ `reason text,`  
+ `acted_by uuid references auth.users(id),`  
+ `created_at timestamptz default now()`  
 `);`
 
 `alter table institutions`  
-  `add column status text not null default 'pending_approval',`  
-  `add column review_notes text;`
+ `add column status text not null default 'pending_approval',`  
+ `add column review_notes text;`
 
 `alter table employers`  
-  `add column status text not null default 'pending_approval',`  
-  `add column review_notes text;`
+ `add column status text not null default 'pending_approval',`  
+ `add column review_notes text;`
 
 RLS: `approvals` read/write admin; `institutions`/`employers` update limited by owner; select publik hanya untuk `status='approved'` (field aman).
 
@@ -2531,13 +2527,13 @@ RLS: `approvals` read/write admin; `institutions`/`employers` update limited by 
 
 # **🗺️ 2\) Struktur Halaman (Next.js App Router)**
 
-* `/dashboard/admin/notifications` – monitor outbox & delivery log.
+- `/dashboard/admin/notifications` – monitor outbox & delivery log.
 
-* `/dashboard/admin/notifications/templates` – **CRUD** template (email/WA/in-app).
+- `/dashboard/admin/notifications/templates` – **CRUD** template (email/WA/in-app).
 
-* `/dashboard/settings/notifications` – pengaturan preferensi kanal per user (opt-in/out, quiet hours).
+- `/dashboard/settings/notifications` – pengaturan preferensi kanal per user (opt-in/out, quiet hours).
 
-* `/inbox` – **in-app notification center** (user).
+- `/inbox` – **in-app notification center** (user).
 
 ---
 
@@ -2545,25 +2541,25 @@ RLS: `approvals` read/write admin; `institutions`/`employers` update limited by 
 
 ### **A. Admin**
 
-* Kelola **template** (multi-channel): judul, body, variabel, pratinjau.
+- Kelola **template** (multi-channel): judul, body, variabel, pratinjau.
 
-* Pengaturan **default policy**: kanal prioritas (Email → WA → In-app), retry limit, quiet hours.
+- Pengaturan **default policy**: kanal prioritas (Email → WA → In-app), retry limit, quiet hours.
 
-* Lihat **outbox** (antrian), **delivery log**, filter per tipe notifikasi & status.
+- Lihat **outbox** (antrian), **delivery log**, filter per tipe notifikasi & status.
 
-* Jadwalkan **digest** (rekap KPI) via cron.
+- Jadwalkan **digest** (rekap KPI) via cron.
 
 ### **B. Institution / Employer**
 
-* Melihat notifikasi yang relevan (approval, lamaran masuk, pendaftar kelas).
+- Melihat notifikasi yang relevan (approval, lamaran masuk, pendaftar kelas).
 
-* Atur preferensi kanal pribadi (mis. hanya email).
+- Atur preferensi kanal pribadi (mis. hanya email).
 
 ### **C. Candidate**
 
-* Menerima notifikasi: verifikasi akun, status lamaran, status enrolment, jadwal kelas, sertifikat.
+- Menerima notifikasi: verifikasi akun, status lamaran, status enrolment, jadwal kelas, sertifikat.
 
-* Atur preferensi (opt-out WA, tetap in-app & email).
+- Atur preferensi (opt-out WA, tetap in-app & email).
 
 ---
 
@@ -2571,87 +2567,87 @@ RLS: `approvals` read/write admin; `institutions`/`employers` update limited by 
 
 **`notification_templates`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `key` (text unique) — ex: `auth.welcome`, `job.applied`, `job.status.update`, `training.reminder`, `approval.result`, `certificate.issued`, `digest.weekly`
+- `key` (text unique) — ex: `auth.welcome`, `job.applied`, `job.status.update`, `training.reminder`, `approval.result`, `certificate.issued`, `digest.weekly`
 
-* `channel` (enum: `email` | `whatsapp` | `inapp`)
+- `channel` (enum: `email` | `whatsapp` | `inapp`)
 
-* `title` (text) // email subject / in-app title
+- `title` (text) // email subject / in-app title
 
-* `body` (text) // support placeholder `{{name}}`, `{{job_title}}`
+- `body` (text) // support placeholder `{{name}}`, `{{job_title}}`
 
-* `enabled` (bool)
+- `enabled` (bool)
 
-* `locale` (text, default `id-ID`)
+- `locale` (text, default `id-ID`)
 
-* `created_at`, `updated_at`
+- `created_at`, `updated_at`
 
 **`user_channel_prefs`**
 
-* `user_id` (uuid, pk)
+- `user_id` (uuid, pk)
 
-* `email_enabled` (bool default true)
+- `email_enabled` (bool default true)
 
-* `wa_enabled` (bool default false)
+- `wa_enabled` (bool default false)
 
-* `inapp_enabled` (bool default true)
+- `inapp_enabled` (bool default true)
 
-* `quiet_hours` (jsonb) // ex: `{ "start":"22:00", "end":"06:00", "tz":"Asia/Jakarta" }`
+- `quiet_hours` (jsonb) // ex: `{ "start":"22:00", "end":"06:00", "tz":"Asia/Jakarta" }`
 
 **`notification_outbox`** (queue/antrian)
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `user_id` (uuid)
+- `user_id` (uuid)
 
-* `template_key` (text)
+- `template_key` (text)
 
-* `channel` (enum)
+- `channel` (enum)
 
-* `payload` (jsonb) // data untuk render template
+- `payload` (jsonb) // data untuk render template
 
-* `scheduled_at` (timestamptz, nullable)
+- `scheduled_at` (timestamptz, nullable)
 
-* `status` (enum: `queued` | `processing` | `sent` | `failed` | `canceled`)
+- `status` (enum: `queued` | `processing` | `sent` | `failed` | `canceled`)
 
-* `attempts` (int default 0\)
+- `attempts` (int default 0\)
 
-* `error_message` (text, nullable)
+- `error_message` (text, nullable)
 
-* `created_at`, `updated_at`
+- `created_at`, `updated_at`
 
 **`notification_logs`** (immutable)
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `outbox_id` (uuid fk)
+- `outbox_id` (uuid fk)
 
-* `provider_message_id` (text, nullable)
+- `provider_message_id` (text, nullable)
 
-* `channel` (enum)
+- `channel` (enum)
 
-* `status_code` (int, nullable)
+- `status_code` (int, nullable)
 
-* `delivered_at` (timestamptz, nullable)
+- `delivered_at` (timestamptz, nullable)
 
-* `provider_meta` (jsonb)
+- `provider_meta` (jsonb)
 
 **`inapp_notifications`**
 
-* `id` (uuid, pk)
+- `id` (uuid, pk)
 
-* `user_id` (uuid)
+- `user_id` (uuid)
 
-* `title` (text)
+- `title` (text)
 
-* `body` (text)
+- `body` (text)
 
-* `link_url` (text, nullable)
+- `link_url` (text, nullable)
 
-* `read_at` (timestamptz, nullable)
+- `read_at` (timestamptz, nullable)
 
-* `created_at`
+- `created_at`
 
 Catatan: untuk **Email** gunakan Resend/SendGrid; **WhatsApp** Fonnte/Twilio; **In-App** disimpan lokal.
 
@@ -2659,37 +2655,37 @@ Catatan: untuk **Email** gunakan Resend/SendGrid; **WhatsApp** Fonnte/Twilio; **
 
 # **🔐 5\) RLS (Row Level Security) – Garis Besar**
 
-* **`notification_templates`**: select admin; write admin only.
+- **`notification_templates`**: select admin; write admin only.
 
-* **`user_channel_prefs`**: user hanya baca/tulis miliknya; admin read.
+- **`user_channel_prefs`**: user hanya baca/tulis miliknya; admin read.
 
-* **`notification_outbox`**:
+- **`notification_outbox`**:
 
-  * select admin; user tidak perlu.
+  - select admin; user tidak perlu.
 
-  * insert oleh server actions/fungsi (service role).
+  - insert oleh server actions/fungsi (service role).
 
-* **`notification_logs`**: select admin.
+- **`notification_logs`**: select admin.
 
-* **`inapp_notifications`**: user hanya dapat select/update notifikasi miliknya.
+- **`inapp_notifications`**: user hanya dapat select/update notifikasi miliknya.
 
 ---
 
 # **🧪 6\) Validasi & Aturan Bisnis**
 
-* **Idempotensi**: setiap event punya `event_id`; sebelum enqueue, cek outbox duplikat (idempotency key: `user_id + template_key + event_id`).
+- **Idempotensi**: setiap event punya `event_id`; sebelum enqueue, cek outbox duplikat (idempotency key: `user_id + template_key + event_id`).
 
-* **Retry Policy**: `attempts < 3` dengan **exponential backoff** (2m, 10m, 30m).
+- **Retry Policy**: `attempts < 3` dengan **exponential backoff** (2m, 10m, 30m).
 
-* **Quiet Hours**: jika `now` dalam rentang **quiet hours**, jadwalkan ke `scheduled_at` (di luar jam tenang) — kecuali notifikasi kritikal (verifikasi akun, reset password, perubahan status penting).
+- **Quiet Hours**: jika `now` dalam rentang **quiet hours**, jadwalkan ke `scheduled_at` (di luar jam tenang) — kecuali notifikasi kritikal (verifikasi akun, reset password, perubahan status penting).
 
-* **Fallback Channel**: jika kanal utama gagal dan user mengizinkan, fallback ke kanal lain (misal: email → in-app).
+- **Fallback Channel**: jika kanal utama gagal dan user mengizinkan, fallback ke kanal lain (misal: email → in-app).
 
-* **Localisasi**: pilih template berdasarkan `locale` user, default `id-ID`.
+- **Localisasi**: pilih template berdasarkan `locale` user, default `id-ID`.
 
-* **Sanitasi**: render body dengan sanitasi variabel (hindari injection).
+- **Sanitasi**: render body dengan sanitasi variabel (hindari injection).
 
-* **Rate limit**: batasi kirim per user (mis. max 10/hari untuk non-transaksional).
+- **Rate limit**: batasi kirim per user (mis. max 10/hari untuk non-transaksional).
 
 ---
 
@@ -2699,35 +2695,35 @@ Catatan: untuk **Email** gunakan Resend/SendGrid; **WhatsApp** Fonnte/Twilio; **
 
 `// server action`  
 `async function enqueueNotification({`  
-  `userId,`  
-  `templateKey,`  
-  `preferredChannel, // 'email' | 'whatsapp' | 'inapp'`  
-  `payload,          // { name, job_title, ... }`  
-  `eventId,          // for idempotency`  
-  `scheduleAt        // optional`  
+ `userId,`  
+ `templateKey,`  
+ `preferredChannel, // 'email' | 'whatsapp' | 'inapp'`  
+ `payload,          // { name, job_title, ... }`  
+ `eventId,          // for idempotency`  
+ `scheduleAt        // optional`  
 `}) {`  
-  `// 1) Fetch user prefs`  
-  `const prefs = await getUserPrefs(userId)`  
-  `const channel = resolveChannel(preferredChannel, prefs) // fallback logic`
+ `// 1) Fetch user prefs`  
+ `const prefs = await getUserPrefs(userId)`  
+ `const channel = resolveChannel(preferredChannel, prefs) // fallback logic`
 
-  `// 2) Idempotency check`  
-  `const exists = await db.outbox.findFirst({`  
-    `where: { user_id: userId, template_key: templateKey, payload_event_id: eventId }`  
-  `})`  
-  `if (exists) return exists.id`
+`// 2) Idempotency check`  
+ `const exists = await db.outbox.findFirst({`  
+ `where: { user_id: userId, template_key: templateKey, payload_event_id: eventId }`  
+ `})`  
+ `if (exists) return exists.id`
 
-  `// 3) Quiet hours -> schedule`  
-  `const sched = shouldDelayByQuietHours(prefs) ? nextAllowedTime(prefs) : scheduleAt`
+`// 3) Quiet hours -> schedule`  
+ `const sched = shouldDelayByQuietHours(prefs) ? nextAllowedTime(prefs) : scheduleAt`
 
-  `// 4) Insert outbox`  
-  `return await db.outbox.insert({`  
-    `user_id: userId,`  
-    `template_key: templateKey,`  
-    `channel,`  
-    `payload,`  
-    `scheduled_at: sched,`  
-    `status: 'queued'`  
-  `})`  
+`// 4) Insert outbox`  
+ `return await db.outbox.insert({`  
+ `user_id: userId,`  
+ `template_key: templateKey,`  
+ `channel,`  
+ `payload,`  
+ `scheduled_at: sched,`  
+ `status: 'queued'`  
+ `})`  
 `}`
 
 **Worker/Edge Function (cron tiap 1–5 menit)**
@@ -2736,47 +2732,48 @@ Catatan: untuk **Email** gunakan Resend/SendGrid; **WhatsApp** Fonnte/Twilio; **
 `const jobs = await db.outbox.list({ status:'queued', scheduled_at <= now() }).limit(100)`
 
 `for (const job of jobs) {`  
-  `await db.outbox.update(job.id, { status: 'processing', attempts: job.attempts+1 })`
+ `await db.outbox.update(job.id, { status: 'processing', attempts: job.attempts+1 })`
 
-  `try {`  
-    `const tpl = await db.templates.get(job.template_key, job.channel, localeFrom(job.user_id))`  
-    `const rendered = renderTemplate(tpl, job.payload)`
+`try {`  
+ `const tpl = await db.templates.get(job.template_key, job.channel, localeFrom(job.user_id))`  
+ `const rendered = renderTemplate(tpl, job.payload)`
 
     `const result = await sendViaProvider(job.channel, job.user_id, rendered)`
 
-    `await db.logs.insert({ outbox_id: job.id, provider_message_id: result.id, channel: job.channel, delivered_at: now(), provider_meta: result.meta })`  
+    `await db.logs.insert({ outbox_id: job.id, provider_message_id: result.id, channel: job.channel, delivered_at: now(), provider_meta: result.meta })`
     `await db.outbox.update(job.id, { status: 'sent' })`
 
-    `if (job.channel === 'inapp') {`  
-      `await db.inapp.create({ user_id: job.user_id, title: tpl.title, body: rendered.body, link_url: rendered.link })`  
-    `}`  
-  `} catch (e) {`  
-    `const failed = job.attempts >= 3`  
-    `await db.outbox.update(job.id, { status: failed ? 'failed' : 'queued', error_message: e.message, scheduled_at: failed ? null : nextBackoff(job.attempts) })`  
-  `}`  
+    `if (job.channel === 'inapp') {`
+      `await db.inapp.create({ user_id: job.user_id, title: tpl.title, body: rendered.body, link_url: rendered.link })`
+    `}`
+
+`} catch (e) {`  
+ `const failed = job.attempts >= 3`  
+ `await db.outbox.update(job.id, { status: failed ? 'failed' : 'queued', error_message: e.message, scheduled_at: failed ? null : nextBackoff(job.attempts) })`  
+ `}`  
 `}`
 
 ---
 
 # **🧩 8\) UI/UX – Komponen Inti**
 
-* **InAppBell** (ikon bel \+ badge): klik → panel `/inbox` (list, tandai baca).
+- **InAppBell** (ikon bel \+ badge): klik → panel `/inbox` (list, tandai baca).
 
-* **NotificationItem**: title, snippet body, waktu relatif, **link CTA** (detail job/enrolment).
+- **NotificationItem**: title, snippet body, waktu relatif, **link CTA** (detail job/enrolment).
 
-* **Admin–TemplateEditor**: editor teks dengan placeholder & preview multi-channel.
+- **Admin–TemplateEditor**: editor teks dengan placeholder & preview multi-channel.
 
-* **Admin–OutboxTable**: status antrian (queued/processing/sent/failed), retry, cancel.
+- **Admin–OutboxTable**: status antrian (queued/processing/sent/failed), retry, cancel.
 
-* **Admin–LogsTable**: filter by channel, waktu, kata kunci subject/body.
+- **Admin–LogsTable**: filter by channel, waktu, kata kunci subject/body.
 
-* **User–PrefsForm**: toggle kanal, set **quiet hours**, pilih bahasa (ID/EN).
+- **User–PrefsForm**: toggle kanal, set **quiet hours**, pilih bahasa (ID/EN).
 
 **UX Notes**
 
-* Gunakan **toast** untuk feedback instan (apply sukses, enroll sukses).
+- Gunakan **toast** untuk feedback instan (apply sukses, enroll sukses).
 
-* Simpan **polisi UI**: notifikasi kritikal boleh menimpa quiet hours.
+- Simpan **polisi UI**: notifikasi kritikal boleh menimpa quiet hours.
 
 ---
 
@@ -2784,68 +2781,67 @@ Catatan: untuk **Email** gunakan Resend/SendGrid; **WhatsApp** Fonnte/Twilio; **
 
 **Tipe Notifikasi & `template_key`**
 
-* `auth.welcome` – Selamat datang & verifikasi akun.
+- `auth.welcome` – Selamat datang & verifikasi akun.
 
-* `approval.result` – Hasil permohonan (Institution/Employer).
+- `approval.result` – Hasil permohonan (Institution/Employer).
 
-* `job.applied` – Lamaran berhasil dikirim.
+- `job.applied` – Lamaran berhasil dikirim.
 
-* `job.status.update` – Status lamaran berubah.
+- `job.status.update` – Status lamaran berubah.
 
-* `training.enrolled` – Pendaftaran kelas berhasil.
+- `training.enrolled` – Pendaftaran kelas berhasil.
 
-* `training.reminder` – Pengingat H-1 jadwal kelas.
+- `training.reminder` – Pengingat H-1 jadwal kelas.
 
-* `certificate.issued` – Sertifikat siap diunduh.
+- `certificate.issued` – Sertifikat siap diunduh.
 
-* `digest.weekly` – Rekap KPI mingguan.
+- `digest.weekly` – Rekap KPI mingguan.
 
 **Contoh Template Email (`job.status.update`)**
 
-* **Subject**: `Status Lamaran "{{job_title}}" Diperbarui`
+- **Subject**: `Status Lamaran "{{job_title}}" Diperbarui`
 
 **Body**:
 
- `Halo {{name}},`  
+`Halo {{name}},`  
 `Status lamaran Anda untuk posisi {{job_title}} telah berubah menjadi {{status_label}}.`  
 `Lihat detail: {{application_link}}`
 
 `Terima kasih,`  
 `Tim P2TK PKS Jawa Barat`
 
-* 
+-
 
 **Provider**
 
-* **Email**: Resend/SendGrid (API key di env, template html sederhana).
+- **Email**: Resend/SendGrid (API key di env, template html sederhana).
 
-* **WhatsApp**: Fonnte/Twilio (template disetujui; hindari spam; simpan `provider_message_id`).
+- **WhatsApp**: Fonnte/Twilio (template disetujui; hindari spam; simpan `provider_message_id`).
 
-* **In-App**: render di UI dari `inapp_notifications`.
+- **In-App**: render di UI dari `inapp_notifications`.
 
 **Digest Cron**
 
-* **Weekly**: tiap Senin 08:00 WIB → kirim ke Admin/LPK ringkasan `jobs/applications/enrollments/certificates` minggu lalu.
+- **Weekly**: tiap Senin 08:00 WIB → kirim ke Admin/LPK ringkasan `jobs/applications/enrollments/certificates` minggu lalu.
 
 ---
 
 # **✅ 10\) Acceptance Criteria (Checklist)**
 
-* Event memicu **enqueue** notifikasi sesuai template & preferensi kanal user.
+- Event memicu **enqueue** notifikasi sesuai template & preferensi kanal user.
 
-* Outbox memproses antrian & mencatat **delivery log** (sukses/gagal).
+- Outbox memproses antrian & mencatat **delivery log** (sukses/gagal).
 
-* **Retry** otomatis max 3x dengan backoff; fallback kanal jika diizinkan.
+- **Retry** otomatis max 3x dengan backoff; fallback kanal jika diizinkan.
 
-* **Quiet hours** dihormati (kecuali notifikasi kritikal).
+- **Quiet hours** dihormati (kecuali notifikasi kritikal).
 
-* User dapat mengelola **preferensi kanal** & melihat **in-app inbox**.
+- User dapat mengelola **preferensi kanal** & melihat **in-app inbox**.
 
-* Admin dapat mengelola template & memonitor outbox/logs.
+- Admin dapat mengelola template & memonitor outbox/logs.
 
-* Semua payload disanitasi; tidak ada PII bocor ke pihak luar selain yang relevan.
+- Semua payload disanitasi; tidak ada PII bocor ke pihak luar selain yang relevan.
 
-* Cron digest berjalan & terkirim sesuai jadwal.
+- Cron digest berjalan & terkirim sesuai jadwal.
 
-* RLS: user hanya bisa melihat notifikasi miliknya; admin bisa lihat semua log.
-
+- RLS: user hanya bisa melihat notifikasi miliknya; admin bisa lihat semua log.
