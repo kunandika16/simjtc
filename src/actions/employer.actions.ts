@@ -270,3 +270,220 @@ export async function getEmployerProfile(): Promise<
     return { success: false, error: 'Terjadi kesalahan' }
   }
 }
+
+// Update Full Employer Profile
+export async function updateEmployerProfile(data: {
+  company_name: string
+  industry?: string
+  website?: string
+  address?: string
+  city?: string
+  province?: string
+  nib?: string
+  npwp?: string
+  pic_name: string
+  pic_email: string
+  pic_phone: string
+  pic_position?: string
+  recruitment_location?: string[]
+  notes?: string
+}): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase
+      .from('employers')
+      .update({
+        company_name: data.company_name,
+        industry: data.industry || null,
+        website: data.website || null,
+        address: data.address || null,
+        city: data.city || null,
+        province: data.province || null,
+        nib: data.nib || null,
+        npwp: data.npwp || null,
+        pic_name: data.pic_name,
+        pic_email: data.pic_email,
+        pic_phone: data.pic_phone,
+        pic_position: data.pic_position || null,
+        recruitment_location: data.recruitment_location || [],
+        notes: data.notes || null,
+        updated_at: new Date().toISOString(),
+      })
+      .eq('user_id', user.id)
+
+    if (error) {
+      console.error('Error updating employer profile:', error)
+      return { success: false, error: 'Gagal mengupdate profil perusahaan' }
+    }
+
+    // Also update company name in profiles table
+    await supabase
+      .from('profiles')
+      .update({ full_name: data.company_name })
+      .eq('id', user.id)
+
+    revalidatePath('/dashboard/employer/profile')
+    return { success: true, message: 'Profil perusahaan berhasil diperbarui' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+// Upload Company Logo
+export async function uploadCompanyLogo(
+  formData: FormData
+): Promise<ActionResponse<{ url: string }>> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const file = formData.get('logo') as File
+    if (!file) {
+      return { success: false, error: 'File tidak ditemukan' }
+    }
+
+    // Validate file type
+    const validTypes = ['image/jpeg', 'image/png', 'image/jpg', 'image/webp']
+    if (!validTypes.includes(file.type)) {
+      return { success: false, error: 'Tipe file tidak valid. Gunakan JPG, PNG, atau WebP' }
+    }
+
+    // Validate file size (max 2MB)
+    if (file.size > 2 * 1024 * 1024) {
+      return { success: false, error: 'Ukuran file maksimal 2MB' }
+    }
+
+    // Delete old logo if exists
+    const { data: employer } = await supabase
+      .from('employers')
+      .select('logo_url')
+      .eq('user_id', user.id)
+      .single()
+
+    if (employer?.logo_url) {
+      // Extract file path from URL
+      const oldPath = employer.logo_url.split('/').pop()
+      if (oldPath) {
+        await supabase.storage
+          .from('company-logos')
+          .remove([`${user.id}/${oldPath}`])
+      }
+    }
+
+    // Upload new logo
+    const fileExt = file.name.split('.').pop()
+    const fileName = `${Date.now()}.${fileExt}`
+    const filePath = `${user.id}/${fileName}`
+
+    const { error: uploadError } = await supabase.storage
+      .from('company-logos')
+      .upload(filePath, file, {
+        cacheControl: '3600',
+        upsert: false,
+      })
+
+    if (uploadError) {
+      console.error('Error uploading logo:', uploadError)
+      return { success: false, error: 'Gagal mengupload logo' }
+    }
+
+    // Get public URL
+    const {
+      data: { publicUrl },
+    } = supabase.storage.from('company-logos').getPublicUrl(filePath)
+
+    // Update employer record
+    const { error: updateError } = await supabase
+      .from('employers')
+      .update({ logo_url: publicUrl })
+      .eq('user_id', user.id)
+
+    if (updateError) {
+      console.error('Error updating logo URL:', updateError)
+      return { success: false, error: 'Gagal menyimpan URL logo' }
+    }
+
+    revalidatePath('/dashboard/employer/profile')
+    return { success: true, message: 'Logo berhasil diupload', data: { url: publicUrl } }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+// Delete Company Logo
+export async function deleteCompanyLogo(): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    // Get current logo URL
+    const { data: employer } = await supabase
+      .from('employers')
+      .select('logo_url')
+      .eq('user_id', user.id)
+      .single()
+
+    if (!employer?.logo_url) {
+      return { success: false, error: 'Tidak ada logo untuk dihapus' }
+    }
+
+    // Extract file path from URL
+    const urlParts = employer.logo_url.split('company-logos/')
+    if (urlParts.length < 2) {
+      return { success: false, error: 'Format URL tidak valid' }
+    }
+    const filePath = urlParts[1]
+
+    // Delete from storage
+    const { error: deleteError } = await supabase.storage
+      .from('company-logos')
+      .remove([filePath])
+
+    if (deleteError) {
+      console.error('Error deleting logo:', deleteError)
+      return { success: false, error: 'Gagal menghapus logo' }
+    }
+
+    // Update employer record
+    const { error: updateError } = await supabase
+      .from('employers')
+      .update({ logo_url: null })
+      .eq('user_id', user.id)
+
+    if (updateError) {
+      console.error('Error updating logo URL:', updateError)
+      return { success: false, error: 'Gagal mengupdate data' }
+    }
+
+    revalidatePath('/dashboard/employer/profile')
+    return { success: true, message: 'Logo berhasil dihapus' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
