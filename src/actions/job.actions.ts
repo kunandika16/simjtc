@@ -346,3 +346,304 @@ export async function closeJob(jobId: string): Promise<ActionResponse> {
 export async function archiveJob(jobId: string): Promise<ActionResponse> {
   return updateJobPosting(jobId, { status: 'archived' })
 }
+
+// ==================== CANDIDATE FACING ACTIONS ====================
+
+/**
+ * Get Published Jobs with Filters & Pagination (Public - for candidates)
+ */
+export async function getPublishedJobs(params?: {
+  search?: string
+  category?: string
+  location_city?: string
+  employment_type?: 'fulltime' | 'parttime' | 'internship' | 'contract'
+  is_remote?: boolean
+  salary_min?: number
+  salary_max?: number
+  sort_by?: 'latest' | 'salary_high' | 'salary_low' | 'deadline'
+  page?: number
+  limit?: number
+}): Promise<ActionResponse<{ jobs: any[]; total: number; pages: number }>> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      search = '',
+      category,
+      location_city,
+      employment_type,
+      is_remote,
+      salary_min,
+      salary_max,
+      sort_by = 'latest',
+      page = 1,
+      limit = 20,
+    } = params || {}
+
+    // Build query
+    let query = supabase
+      .from('jobs')
+      .select(
+        `
+        *,
+        employers (
+          id,
+          company_name,
+          industry,
+          city,
+          province
+        )
+      `,
+        { count: 'exact' }
+      )
+      .eq('status', 'published')
+      .gt('deadline', new Date().toISOString())
+
+    // Search filter (full-text search)
+    if (search && search.trim()) {
+      query = query.or(
+        `title.ilike.%${search}%,description.ilike.%${search}%,category.ilike.%${search}%`
+      )
+    }
+
+    // Category filter
+    if (category) {
+      query = query.eq('category', category)
+    }
+
+    // Location filter
+    if (location_city) {
+      query = query.eq('location_city', location_city)
+    }
+
+    // Employment type filter
+    if (employment_type) {
+      query = query.eq('employment_type', employment_type)
+    }
+
+    // Remote filter
+    if (is_remote !== undefined) {
+      query = query.eq('is_remote', is_remote)
+    }
+
+    // Salary filters
+    if (salary_min) {
+      query = query.gte('salary_min', salary_min)
+    }
+    if (salary_max) {
+      query = query.lte('salary_max', salary_max)
+    }
+
+    // Sorting
+    switch (sort_by) {
+      case 'latest':
+        query = query.order('published_at', { ascending: false })
+        break
+      case 'salary_high':
+        query = query.order('salary_max', { ascending: false, nullsLast: true })
+        break
+      case 'salary_low':
+        query = query.order('salary_min', { ascending: true, nullsLast: true })
+        break
+      case 'deadline':
+        query = query.order('deadline', { ascending: true, nullsLast: true })
+        break
+    }
+
+    // Pagination
+    const from = (page - 1) * limit
+    const to = from + limit - 1
+    query = query.range(from, to)
+
+    const { data: jobs, error, count } = await query
+
+    if (error) {
+      console.error('Error fetching published jobs:', error)
+      return { success: false, error: 'Gagal mengambil data lowongan' }
+    }
+
+    const total = count || 0
+    const pages = Math.ceil(total / limit)
+
+    return {
+      success: true,
+      data: { jobs: jobs || [], total, pages },
+    }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Get Job by Slug (Public - for job detail page)
+ */
+export async function getJobBySlug(
+  slug: string
+): Promise<ActionResponse<{ job: any }>> {
+  try {
+    const supabase = await createClient()
+
+    // Fetch job with employer info
+    const { data: job, error } = await supabase
+      .from('jobs')
+      .select(
+        `
+        *,
+        employers (
+          id,
+          company_name,
+          industry,
+          website,
+          address,
+          city,
+          province
+        )
+      `
+      )
+      .eq('slug', slug)
+      .single()
+
+    if (error || !job) {
+      console.error('Error fetching job by slug:', error)
+      return { success: false, error: 'Lowongan tidak ditemukan' }
+    }
+
+    // Increment views count (fire and forget)
+    supabase
+      .from('jobs')
+      .update({ views_count: (job.views_count || 0) + 1 })
+      .eq('id', job.id)
+      .then()
+
+    return {
+      success: true,
+      data: { job },
+    }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Get Similar Jobs by Category & Location
+ */
+export async function getSimilarJobs(
+  jobId: string,
+  category?: string | null,
+  locationCity?: string | null,
+  limit: number = 6
+): Promise<ActionResponse<{ jobs: any[] }>> {
+  try {
+    const supabase = await createClient()
+
+    let query = supabase
+      .from('jobs')
+      .select(
+        `
+        *,
+        employers (
+          id,
+          company_name,
+          industry,
+          city
+        )
+      `
+      )
+      .eq('status', 'published')
+      .gt('deadline', new Date().toISOString())
+      .neq('id', jobId)
+      .limit(limit)
+
+    // Prioritize same category or location
+    if (category) {
+      query = query.eq('category', category)
+    } else if (locationCity) {
+      query = query.eq('location_city', locationCity)
+    }
+
+    query = query.order('published_at', { ascending: false })
+
+    const { data: jobs, error } = await query
+
+    if (error) {
+      console.error('Error fetching similar jobs:', error)
+      return { success: false, error: 'Gagal mengambil data lowongan' }
+    }
+
+    return {
+      success: true,
+      data: { jobs: jobs || [] },
+    }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Get Available Categories (for filter dropdown)
+ */
+export async function getJobCategories(): Promise<
+  ActionResponse<{ categories: string[] }>
+> {
+  try {
+    const supabase = await createClient()
+
+    const { data, error } = await supabase
+      .from('jobs')
+      .select('category')
+      .eq('status', 'published')
+      .not('category', 'is', null)
+
+    if (error) {
+      console.error('Error fetching categories:', error)
+      return { success: false, error: 'Gagal mengambil kategori' }
+    }
+
+    // Get unique categories
+    const categories = [...new Set(data.map((item) => item.category).filter(Boolean))] as string[]
+
+    return {
+      success: true,
+      data: { categories: categories.sort() },
+    }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Get Available Locations (for filter dropdown)
+ */
+export async function getJobLocations(): Promise<
+  ActionResponse<{ locations: string[] }>
+> {
+  try {
+    const supabase = await createClient()
+
+    const { data, error } = await supabase
+      .from('jobs')
+      .select('location_city')
+      .eq('status', 'published')
+      .not('location_city', 'is', null)
+
+    if (error) {
+      console.error('Error fetching locations:', error)
+      return { success: false, error: 'Gagal mengambil lokasi' }
+    }
+
+    // Get unique locations
+    const locations = [...new Set(data.map((item) => item.location_city).filter(Boolean))] as string[]
+
+    return {
+      success: true,
+      data: { locations: locations.sort() },
+    }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}

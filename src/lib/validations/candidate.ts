@@ -58,11 +58,39 @@ export const candidateExperienceSchema = z.object({
 
 export type CandidateExperienceInput = z.infer<typeof candidateExperienceSchema>
 
+// Certificate Schema
+export const candidateCertificateSchema = z.object({
+  id: z.string().optional(),
+  name: z.string().min(2, 'Nama sertifikat minimal 2 karakter'),
+  description: z.string().optional().nullable(),
+  file_url: z.string().optional().nullable(),
+  issued_date: z.string().optional().nullable(),
+  expiry_date: z.string().optional().nullable(),
+  issuer: z.string().optional().nullable(),
+})
+
+export type CandidateCertificateInput = z.infer<typeof candidateCertificateSchema>
+
+// Social Media Schema
+export const candidateSocialMediaSchema = z.object({
+  instagram_url: z.string().url('URL Instagram tidak valid').optional().or(z.literal('')),
+  facebook_url: z.string().url('URL Facebook tidak valid').optional().or(z.literal('')),
+  linkedin_url: z.string().url('URL LinkedIn tidak valid').optional().or(z.literal('')),
+  twitter_url: z.string().url('URL Twitter tidak valid').optional().or(z.literal('')),
+})
+
+export type CandidateSocialMediaInput = z.infer<typeof candidateSocialMediaSchema>
+
 export const candidateSkillsSchema = z.object({
   skills: z
     .array(z.string().min(1, 'Skill tidak boleh kosong'))
     .min(1, 'Tambahkan minimal 1 skill'),
   experiences: z.array(candidateExperienceSchema).optional().default([]),
+  // Social media (optional)
+  instagram_url: z.string().optional().nullable(),
+  facebook_url: z.string().optional().nullable(),
+  linkedin_url: z.string().optional().nullable(),
+  twitter_url: z.string().optional().nullable(),
 })
 
 export type CandidateSkillsInput = z.infer<typeof candidateSkillsSchema>

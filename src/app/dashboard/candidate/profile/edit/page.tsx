@@ -8,7 +8,11 @@ import { ProfileEditForm } from '@/components/candidate/profile-edit-form'
 // Force dynamic rendering
 export const dynamic = 'force-dynamic'
 
-export default async function EditProfilePage() {
+interface EditProfilePageProps {
+  searchParams: { tab?: string }
+}
+
+export default async function EditProfilePage({ searchParams }: EditProfilePageProps) {
   const supabase = await createClient()
 
   const {
@@ -62,8 +66,10 @@ export default async function EditProfilePage() {
 
       {/* Edit Form */}
       <ProfileEditForm
+        profile={profile}
         candidateProfile={candidateProfile}
         experiences={experiences || []}
+        initialTab={searchParams.tab || 'personal'}
       />
     </div>
   )
