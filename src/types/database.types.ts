@@ -190,6 +190,7 @@ export interface Database {
           id: string
           user_id: string
           company_name: string
+          logo_url: string | null
           industry: string | null
           website: string | null
           address: string | null
@@ -215,6 +216,7 @@ export interface Database {
           id?: string
           user_id: string
           company_name: string
+          logo_url?: string | null
           industry?: string | null
           website?: string | null
           address?: string | null
@@ -240,6 +242,7 @@ export interface Database {
           id?: string
           user_id?: string
           company_name?: string
+          logo_url?: string | null
           industry?: string | null
           website?: string | null
           address?: string | null
