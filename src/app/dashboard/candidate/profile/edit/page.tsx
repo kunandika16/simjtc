@@ -1,10 +1,52 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
+import { redirect } from 'next/navigation'
 import Link from 'next/link'
-import { ArrowLeft, Edit } from 'lucide-react'
+import { createClient } from '@/lib/supabase/server'
+import { Button } from '@/components/ui/button'
+import { ArrowLeft } from 'lucide-react'
+import { ProfileEditForm } from '@/components/candidate/profile-edit-form'
 
-export default async function EditProfilePage() {
+// Force dynamic rendering
+export const dynamic = 'force-dynamic'
+
+interface EditProfilePageProps {
+  searchParams: { tab?: string }
+}
+
+export default async function EditProfilePage({ searchParams }: EditProfilePageProps) {
+  const supabase = await createClient()
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+
+  if (!user) {
+    redirect('/auth/login')
+  }
+
+  const { data: profile } = await supabase
+    .from('profiles')
+    .select('*')
+    .eq('id', user.id)
+    .single()
+
+  if (!profile || profile.role !== 'candidate') {
+    redirect('/dashboard')
+  }
+
+  // Get candidate profile
+  const { data: candidateProfile } = await supabase
+    .from('candidate_profiles')
+    .select('*')
+    .eq('user_id', user.id)
+    .single()
+
+  // Get candidate experiences
+  const { data: experiences } = await supabase
+    .from('candidate_experiences')
+    .select('*')
+    .eq('candidate_id', user.id)
+    .order('start_date', { ascending: false })
+
   return (
     <div className="p-8 space-y-6">
       {/* Header */}
@@ -22,47 +64,13 @@ export default async function EditProfilePage() {
         </div>
       </div>
 
-      {/* Coming Soon Card */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Edit className="h-5 w-5" />
-            Fitur Edit Profil
-          </CardTitle>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-4">
-            <p className="text-muted-foreground">
-              Fitur ini sedang dalam tahap pengembangan dan akan segera hadir dengan form untuk:
-            </p>
-            <ul className="space-y-2">
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Update data pribadi (NIK, nama, alamat, kontak)</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Edit pendidikan (jenjang, institusi, IPK)</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Tambah/edit/hapus pengalaman kerja</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Manage skills dan keahlian</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-primary mt-1">•</span>
-                <span>Upload/replace dokumen (CV, ijazah, sertifikat)</span>
-              </li>
-            </ul>
-            <div className="pt-4">
-              <Badge variant="secondary">Coming Soon</Badge>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+      {/* Edit Form */}
+      <ProfileEditForm
+        profile={profile}
+        candidateProfile={candidateProfile}
+        experiences={experiences || []}
+        initialTab={searchParams.tab || 'personal'}
+      />
     </div>
   )
 }

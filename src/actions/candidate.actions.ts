@@ -111,11 +111,15 @@ export async function saveCandidateSkills(
       return { success: false, error: 'Unauthorized' }
     }
 
-    // Save skills to candidate_profiles
+    // Save skills and social media to candidate_profiles
     const { error: skillsError } = await supabase
       .from('candidate_profiles')
       .update({
         skills: data.skills,
+        instagram_url: data.instagram_url || null,
+        facebook_url: data.facebook_url || null,
+        linkedin_url: data.linkedin_url,
+        twitter_url: data.twitter_url || null,
       })
       .eq('user_id', user.id)
 
@@ -646,6 +650,351 @@ export async function rejectApplication(
 
     revalidatePath('/dashboard/employer')
     return { success: true, message: 'Aplikasi berhasil ditolak' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+// ==================== PROFILE PHOTO & DOCUMENTS ====================
+
+/**
+ * Update avatar/profile photo URL in profiles table
+ */
+export async function updateAvatarUrl(
+  avatarUrl: string
+): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase
+      .from('profiles')
+      .update({ avatar_url: avatarUrl })
+      .eq('id', user.id)
+
+    if (error) {
+      console.error('Error updating avatar:', error)
+      return { success: false, error: 'Gagal memperbarui foto profil' }
+    }
+
+    revalidatePath('/dashboard/candidate/profile')
+    return { success: true, message: 'Foto profil berhasil diperbarui' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Update CV URL in candidate_profiles table
+ */
+export async function updateCvUrl(cvUrl: string): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase
+      .from('candidate_profiles')
+      .update({ cv_url: cvUrl })
+      .eq('user_id', user.id)
+
+    if (error) {
+      console.error('Error updating CV:', error)
+      return { success: false, error: 'Gagal memperbarui CV' }
+    }
+
+    revalidatePath('/dashboard/candidate/profile')
+    return { success: true, message: 'CV berhasil diperbarui' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Update KTP URL in candidate_profiles table
+ */
+export async function updateKtpUrl(ktpUrl: string): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase
+      .from('candidate_profiles')
+      .update({ ktp_url: ktpUrl })
+      .eq('user_id', user.id)
+
+    if (error) {
+      console.error('Error updating KTP:', error)
+      return { success: false, error: 'Gagal memperbarui KTP' }
+    }
+
+    revalidatePath('/dashboard/candidate/profile')
+    return { success: true, message: 'KTP berhasil diperbarui' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Update Diploma URL in candidate_profiles table
+ */
+export async function updateDiplomaUrl(
+  diplomaUrl: string
+): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase
+      .from('candidate_profiles')
+      .update({ diploma_url: diplomaUrl })
+      .eq('user_id', user.id)
+
+    if (error) {
+      console.error('Error updating diploma:', error)
+      return { success: false, error: 'Gagal memperbarui ijazah' }
+    }
+
+    revalidatePath('/dashboard/candidate/profile')
+    return { success: true, message: 'Ijazah berhasil diperbarui' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Update Certificate URLs in candidate_profiles table
+ */
+export async function updateCertificateUrls(
+  certificateUrls: string[]
+): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase
+      .from('candidate_profiles')
+      .update({ certificate_urls: certificateUrls })
+      .eq('user_id', user.id)
+
+    if (error) {
+      console.error('Error updating certificates:', error)
+      return { success: false, error: 'Gagal memperbarui sertifikat' }
+    }
+
+    revalidatePath('/dashboard/candidate/profile')
+    return { success: true, message: 'Sertifikat berhasil diperbarui' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+// ==================== CERTIFICATES ====================
+
+/**
+ * Save candidate certificate
+ */
+export async function saveCandidateCertificate(certificate: {
+  name: string
+  description?: string
+  file_url?: string
+  issued_date?: string
+  expiry_date?: string
+  issuer?: string
+}): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase.from('candidate_certificates').insert({
+      candidate_id: user.id,
+      name: certificate.name,
+      description: certificate.description || null,
+      file_url: certificate.file_url || null,
+      issued_date: certificate.issued_date || null,
+      expiry_date: certificate.expiry_date || null,
+      issuer: certificate.issuer || null,
+    })
+
+    if (error) {
+      console.error('Error saving certificate:', error)
+      return { success: false, error: 'Gagal menyimpan sertifikat' }
+    }
+
+    revalidatePath('/dashboard/candidate/profile')
+    return { success: true, message: 'Sertifikat berhasil disimpan' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Update candidate certificate
+ */
+export async function updateCandidateCertificate(
+  id: string,
+  certificate: {
+    name: string
+    description?: string
+    file_url?: string
+    issued_date?: string
+    expiry_date?: string
+    issuer?: string
+  }
+): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase
+      .from('candidate_certificates')
+      .update({
+        name: certificate.name,
+        description: certificate.description || null,
+        file_url: certificate.file_url || null,
+        issued_date: certificate.issued_date || null,
+        expiry_date: certificate.expiry_date || null,
+        issuer: certificate.issuer || null,
+      })
+      .eq('id', id)
+      .eq('candidate_id', user.id)
+
+    if (error) {
+      console.error('Error updating certificate:', error)
+      return { success: false, error: 'Gagal memperbarui sertifikat' }
+    }
+
+    revalidatePath('/dashboard/candidate/profile')
+    return { success: true, message: 'Sertifikat berhasil diperbarui' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Delete candidate certificate
+ */
+export async function deleteCandidateCertificate(
+  id: string
+): Promise<ActionResponse> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { error } = await supabase
+      .from('candidate_certificates')
+      .delete()
+      .eq('id', id)
+      .eq('candidate_id', user.id)
+
+    if (error) {
+      console.error('Error deleting certificate:', error)
+      return { success: false, error: 'Gagal menghapus sertifikat' }
+    }
+
+    revalidatePath('/dashboard/candidate/profile')
+    return { success: true, message: 'Sertifikat berhasil dihapus' }
+  } catch (error) {
+    console.error('Error:', error)
+    return { success: false, error: 'Terjadi kesalahan' }
+  }
+}
+
+/**
+ * Get candidate certificates
+ */
+export async function getCandidateCertificates(): Promise<
+  ActionResponse<{ certificates: any[] }>
+> {
+  try {
+    const supabase = await createClient()
+
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+
+    if (!user) {
+      return { success: false, error: 'Unauthorized' }
+    }
+
+    const { data: certificates, error } = await supabase
+      .from('candidate_certificates')
+      .select('*')
+      .eq('candidate_id', user.id)
+      .order('created_at', { ascending: false })
+
+    if (error) {
+      console.error('Error fetching certificates:', error)
+      return { success: false, error: 'Gagal mengambil data sertifikat' }
+    }
+
+    return {
+      success: true,
+      data: { certificates: certificates || [] },
+    }
   } catch (error) {
     console.error('Error:', error)
     return { success: false, error: 'Terjadi kesalahan' }
